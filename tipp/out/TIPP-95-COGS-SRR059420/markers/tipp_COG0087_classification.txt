@@ -1,0 +1,415 @@
+61JCNAAXX100503:5:1:2799:17060,28116,Bacteroides ovatus,species,.5079
+61JCNAAXX100503:5:1:2799:17060,2,Bacteria,superkingdom,1.0000
+61JCNAAXX100503:5:1:2799:17060,68336,Bacteroidetes/Chlorobi group,superphylum,1.0000
+61JCNAAXX100503:5:1:2799:17060,702443,Bacteroides ovatus SD CMC 3f,unnamed_species,.1694
+61JCNAAXX100503:5:1:2799:17060,131567,cellular organisms,below_root,1.0000
+61JCNAAXX100503:5:1:2799:17060,816,Bacteroides,genus,1.0000
+61JCNAAXX100503:5:1:2799:17060,815,Bacteroidaceae,family,1.0000
+61JCNAAXX100503:5:1:2799:17060,585544,Bacteroides sp. D22,unnamed_species,.1694
+61JCNAAXX100503:5:1:2799:17060,976,Bacteroidetes,phylum,1.0000
+61JCNAAXX100503:5:1:2799:17060,171549,Bacteroidales,order,1.0000
+61JCNAAXX100503:5:1:2799:17060,200643,Bacteroidia,class,1.0000
+61JCNAAXX100503:5:1:2799:17060,997886,Bacteroides ovatus CL03T12C18,unnamed_species,.1691
+61JCNAAXX100503:5:1:2799:17060,1,root,root,1.0000
+61JCNAAXX100503:5:1:1877:15277,2,Bacteria,superkingdom,1.0000
+61JCNAAXX100503:5:1:1877:15277,815,Bacteroidaceae,family,1.0000
+61JCNAAXX100503:5:1:1877:15277,68336,Bacteroidetes/Chlorobi group,superphylum,1.0000
+61JCNAAXX100503:5:1:1877:15277,976,Bacteroidetes,phylum,1.0000
+61JCNAAXX100503:5:1:1877:15277,665938,Bacteroides sp. 2_1_56FAA,unnamed_species,.9893
+61JCNAAXX100503:5:1:1877:15277,171549,Bacteroidales,order,1.0000
+61JCNAAXX100503:5:1:1877:15277,131567,cellular organisms,below_root,1.0000
+61JCNAAXX100503:5:1:1877:15277,200643,Bacteroidia,class,1.0000
+61JCNAAXX100503:5:1:1877:15277,816,Bacteroides,genus,1.0000
+61JCNAAXX100503:5:1:1877:15277,1,root,root,1.0000
+61JCNAAXX100503:5:1:1525:4703,2,Bacteria,superkingdom,1.0000
+61JCNAAXX100503:5:1:1525:4703,68336,Bacteroidetes/Chlorobi group,superphylum,1.0000
+61JCNAAXX100503:5:1:1525:4703,821,Bacteroides vulgatus,species,.4289
+61JCNAAXX100503:5:1:1525:4703,131567,cellular organisms,below_root,1.0000
+61JCNAAXX100503:5:1:1525:4703,816,Bacteroides,genus,1.0000
+61JCNAAXX100503:5:1:1525:4703,702446,Bacteroides vulgatus PC510,unnamed_species,.1430
+61JCNAAXX100503:5:1:1525:4703,997891,Bacteroides vulgatus CL09T03C04,unnamed_species,.1430
+61JCNAAXX100503:5:1:1525:4703,556260,Bacteroides dorei 5_1_36/D4,unnamed_species,.1430
+61JCNAAXX100503:5:1:1525:4703,815,Bacteroidaceae,family,1.0000
+61JCNAAXX100503:5:1:1525:4703,976,Bacteroidetes,phylum,1.0000
+61JCNAAXX100503:5:1:1525:4703,357276,Bacteroides dorei,species,.1430
+61JCNAAXX100503:5:1:1525:4703,171549,Bacteroidales,order,1.0000
+61JCNAAXX100503:5:1:1525:4703,200643,Bacteroidia,class,1.0000
+61JCNAAXX100503:5:1:1525:4703,457394,Bacteroides sp. 4_3_47FAA,unnamed_species,.1427
+61JCNAAXX100503:5:1:1525:4703,1,root,root,1.0000
+61JCNAAXX100503:5:1:2760:11417,2,Bacteria,superkingdom,1.0000
+61JCNAAXX100503:5:1:2760:11417,2746,Halomonas elongata,species,.0060
+61JCNAAXX100503:5:1:2760:11417,239759,Alistipes,genus,.0055
+61JCNAAXX100503:5:1:2760:11417,257313,Bordetella pertussis Tohama I,below_species,.0018
+61JCNAAXX100503:5:1:2760:11417,85009,Propionibacterineae,suborder,.1396
+61JCNAAXX100503:5:1:2760:11417,1118963,Arthrobacter sp. Rue61a,species,.0113
+61JCNAAXX100503:5:1:2760:11417,880591,Ketogulonicigenium vulgare Y25,below_species,.0025
+61JCNAAXX100503:5:1:2760:11417,83778,Kineosporiaceae,family,.0078
+61JCNAAXX100503:5:1:2760:11417,459349,Candidatus Cloacimonas acidaminovorans str. Evry,unnamed_species,.0128
+61JCNAAXX100503:5:1:2760:11417,186806,Eubacteriaceae,family,.0004
+61JCNAAXX100503:5:1:2760:11417,665956,Subdoligranulum sp. 4_3_54A2FAA,unnamed_species,.0020
+61JCNAAXX100503:5:1:2760:11417,135625,Pasteurellales,order,.0116
+61JCNAAXX100503:5:1:2760:11417,1221877,Chlamydia psittaci 01DC12,below_species,.0016
+61JCNAAXX100503:5:1:2760:11417,590,Salmonella,genus,.0212
+61JCNAAXX100503:5:1:2760:11417,871271,Candidatus Zinderia insecticola CARI,below_species,.0018
+61JCNAAXX100503:5:1:2760:11417,668336,Aggregatibacter actinomycetemcomitans D11S-1,below_species,.0023
+61JCNAAXX100503:5:1:2760:11417,351607,Acidothermus cellulolyticus 11B,below_species,.0051
+61JCNAAXX100503:5:1:2760:11417,244366,Klebsiella variicola,species,.0033
+61JCNAAXX100503:5:1:2760:11417,768503,Cytophagia,class,.0178
+61JCNAAXX100503:5:1:2760:11417,309801,Thermomicrobium roseum DSM 5159,below_species,.0020
+61JCNAAXX100503:5:1:2760:11417,171437,Tistrella mobilis,species,.0047
+61JCNAAXX100503:5:1:2760:11417,74109,Photobacterium profundum,species,.0016
+61JCNAAXX100503:5:1:2760:11417,545696,Holdemania filiformis DSM 12042,unnamed_species,.0003
+61JCNAAXX100503:5:1:2760:11417,1036673,Paenibacillus mucilaginosus KNP414,below_species,.0044
+61JCNAAXX100503:5:1:2760:11417,622452,Kineosporiineae,suborder,.0078
+61JCNAAXX100503:5:1:2760:11417,186802,Clostridiales,order,.0151
+61JCNAAXX100503:5:1:2760:11417,135623,Vibrionales,order,.0115
+61JCNAAXX100503:5:1:2760:11417,837,Porphyromonas gingivalis,species,.0071
+61JCNAAXX100503:5:1:2760:11417,85012,Streptosporangineae,suborder,.0248
+61JCNAAXX100503:5:1:2760:11417,84404,Hippea,genus,.0047
+61JCNAAXX100503:5:1:2760:11417,639313,Amycolicicoccus subflavus,species,.0059
+61JCNAAXX100503:5:1:2760:11417,61170,Holdemania,genus,.0003
+61JCNAAXX100503:5:1:2760:11417,28141,Cronobacter sakazakii,species,.0033
+61JCNAAXX100503:5:1:2760:11417,53318,Desulfocapsa,genus,.0150
+61JCNAAXX100503:5:1:2760:11417,1170318,Propionibacterium avidum 44067,below_species,.0292
+61JCNAAXX100503:5:1:2760:11417,469383,Conexibacter woesei DSM 14684,below_species,.0145
+61JCNAAXX100503:5:1:2760:11417,1050843,Propionibacterium humerusii,species,.0220
+61JCNAAXX100503:5:1:2760:11417,754252,Propionibacterium freudenreichii subsp. shermanii CIRM-BIA1,below_subspecies,.0129
+61JCNAAXX100503:5:1:2760:11417,41295,Rhodospirillaceae,family,.0047
+61JCNAAXX100503:5:1:2760:11417,2701,Gardnerella,genus,.0023
+61JCNAAXX100503:5:1:2760:11417,186801,Clostridia,class,.0276
+61JCNAAXX100503:5:1:2760:11417,200643,Bacteroidia,class,.0403
+61JCNAAXX100503:5:1:2760:11417,1218,Prochlorococcus,genus,.0238
+61JCNAAXX100503:5:1:2760:11417,1113537,Chlamydia/Chlamydophila group,below_family,.0049
+61JCNAAXX100503:5:1:2760:11417,1730,Eubacterium,genus,.0004
+61JCNAAXX100503:5:1:2760:11417,541000,Ruminococcaceae,family,.0130
+61JCNAAXX100503:5:1:2760:11417,74712,Frankiaceae,family,.0418
+61JCNAAXX100503:5:1:2760:11417,28049,Acidothermus cellulolyticus,species,.0051
+61JCNAAXX100503:5:1:2760:11417,511995,Candidatus Azobacteroides pseudotrichonymphae genomovar. CFP2,below_species,.0055
+61JCNAAXX100503:5:1:2760:11417,666685,Rhodanobacter denitrificans,species,.0017
+61JCNAAXX100503:5:1:2760:11417,85006,Micrococcineae,suborder,.1199
+61JCNAAXX100503:5:1:2760:11417,2021,Thermobifida fusca,species,.0111
+61JCNAAXX100503:5:1:2760:11417,84995,Rubrobacteridae,subclass,.0145
+61JCNAAXX100503:5:1:2760:11417,28256,Halomonadaceae,family,.0060
+61JCNAAXX100503:5:1:2760:11417,76632,Thermobacillus,genus,.0012
+61JCNAAXX100503:5:1:2760:11417,1297,Deinococcus-Thermus,phylum,.1076
+61JCNAAXX100503:5:1:2760:11417,31953,Bifidobacteriaceae,family,.0023
+61JCNAAXX100503:5:1:2760:11417,83676,Nocardiopsaceae,family,.0248
+61JCNAAXX100503:5:1:2760:11417,292632,Subdoligranulum,genus,.0053
+61JCNAAXX100503:5:1:2760:11417,167964,Anaerolinea thermophila,species,.0016
+61JCNAAXX100503:5:1:2760:11417,999,Flexibacter litoralis,species,.0178
+61JCNAAXX100503:5:1:2760:11417,1400053,Bacteroidales bacterium CF,unnamed_species,.0055
+61JCNAAXX100503:5:1:2760:11417,635,Edwardsiella,genus,.0033
+61JCNAAXX100503:5:1:2760:11417,880071,Flexibacter litoralis DSM 6794,below_species,.0178
+61JCNAAXX100503:5:1:2760:11417,213121,Desulfobulbaceae,family,.0150
+61JCNAAXX100503:5:1:2760:11417,191494,Conexibacter,genus,.0145
+61JCNAAXX100503:5:1:2760:11417,1117,Cyanobacteria,phylum,.0238
+61JCNAAXX100503:5:1:2760:11417,152480,Burkholderia ambifaria,species,.0055
+61JCNAAXX100503:5:1:2760:11417,353496,Lactobacillus delbrueckii subsp. bulgaricus 2038,below_subspecies,.0018
+61JCNAAXX100503:5:1:2760:11417,1865,Actinoplanes,genus,.0049
+61JCNAAXX100503:5:1:2760:11417,68525,delta/epsilon subdivisions,subphylum,.0357
+61JCNAAXX100503:5:1:2760:11417,128827,Erysipelotrichaceae,family,.0091
+61JCNAAXX100503:5:1:2760:11417,261318,Buchnera aphidicola (Cinara cedri),below_species,.0046
+61JCNAAXX100503:5:1:2760:11417,186329,Acholeplasmatales,order,.0232
+61JCNAAXX100503:5:1:2760:11417,200666,Sphingobacteriales,order,.0061
+61JCNAAXX100503:5:1:2760:11417,292628,Anaerolineaceae,family,.0016
+61JCNAAXX100503:5:1:2760:11417,298386,Photobacterium profundum SS9,below_species,.0016
+61JCNAAXX100503:5:1:2760:11417,749549,Escherichia coli MS 198-1,unnamed_species,.0027
+61JCNAAXX100503:5:1:2760:11417,686659,Propionibacterium acnes SK187,unnamed_species,.0170
+61JCNAAXX100503:5:1:2760:11417,28056,Micromonosporaceae,family,.0049
+61JCNAAXX100503:5:1:2760:11417,169435,Anaerotruncus colihominis,species,.0049
+61JCNAAXX100503:5:1:2760:11417,212663,Vibrio tasmaniensis,species,.0098
+61JCNAAXX100503:5:1:2760:11417,1100069,Bacteroidetes Order II. Incertae sedis,order,.0184
+61JCNAAXX100503:5:1:2760:11417,309803,Thermotoga neapolitana DSM 4359,below_species,.0031
+61JCNAAXX100503:5:1:2760:11417,201174,Actinobacteria,phylum,.3944
+61JCNAAXX100503:5:1:2760:11417,1743,Propionibacterium,genus,.1396
+61JCNAAXX100503:5:1:2760:11417,244127,Anaerotruncus,genus,.0049
+61JCNAAXX100503:5:1:2760:11417,85008,Micromonosporineae,suborder,.0049
+61JCNAAXX100503:5:1:2760:11417,186818,Planococcaceae,family,.0059
+61JCNAAXX100503:5:1:2760:11417,926569,Anaerolinea thermophila UNI-1,below_species,.0016
+61JCNAAXX100503:5:1:2760:11417,452863,Arthrobacter chlorophenolicus A6,below_species,.0192
+61JCNAAXX100503:5:1:2760:11417,191495,Conexibacter woesei,species,.0145
+61JCNAAXX100503:5:1:2760:11417,75309,Rhodanobacter,genus,.0017
+61JCNAAXX100503:5:1:2760:11417,87882,Burkholderia cepacia complex,species_group,.0238
+61JCNAAXX100503:5:1:2760:11417,333046,unclassified Bacteroidales,below_order,.0109
+61JCNAAXX100503:5:1:2760:11417,765123,Propionibacterium [acnes] HL037PA2,unnamed_species,.0220
+61JCNAAXX100503:5:1:2760:11417,44249,Paenibacillus,genus,.0238
+61JCNAAXX100503:5:1:2760:11417,1854,Frankia,genus,.0418
+61JCNAAXX100503:5:1:2760:11417,2745,Halomonas,genus,.0060
+61JCNAAXX100503:5:1:2760:11417,204429,Chlamydiia,class,.0049
+61JCNAAXX100503:5:1:2760:11417,1239,Firmicutes,phylum,.0957
+61JCNAAXX100503:5:1:2760:11417,445972,Anaerotruncus colihominis DSM 17241,unnamed_species,.0049
+61JCNAAXX100503:5:1:2760:11417,53945,Octadecabacter,genus,.0168
+61JCNAAXX100503:5:1:2760:11417,1193807,Dehalococcoides mccartyi DCMB5,below_species,.0035
+61JCNAAXX100503:5:1:2760:11417,185291,unclassified Bacteroidales (miscellaneous),below_below_order,.0055
+61JCNAAXX100503:5:1:2760:11417,118964,Deinococcales,order,.1076
+61JCNAAXX100503:5:1:2760:11417,136,Spirochaetales,order,.0047
+61JCNAAXX100503:5:1:2760:11417,543,Enterobacteriaceae,family,.0464
+61JCNAAXX100503:5:1:2760:11417,999421,Parabacteroides merdae CL09T00C40,unnamed_species,.0035
+61JCNAAXX100503:5:1:2760:11417,85032,Acidothermaceae,family,.0051
+61JCNAAXX100503:5:1:2760:11417,85007,Corynebacterineae,suborder,.0059
+61JCNAAXX100503:5:1:2760:11417,131567,cellular organisms,below_root,1.0000
+61JCNAAXX100503:5:1:2760:11417,575788,Vibrio tasmaniensis LGP32,below_species,.0098
+61JCNAAXX100503:5:1:2760:11417,1639,Listeria monocytogenes,species,.0066
+61JCNAAXX100503:5:1:2760:11417,186820,Listeriaceae,family,.0066
+61JCNAAXX100503:5:1:2760:11417,499,Thermomicrobium,genus,.0020
+61JCNAAXX100503:5:1:2760:11417,61434,Dehalococcoides,genus,.0035
+61JCNAAXX100503:5:1:2760:11417,32061,Chloroflexia,class,.0162
+61JCNAAXX100503:5:1:2760:11417,526525,Erysipelotrichales,order,.0091
+61JCNAAXX100503:5:1:2760:11417,432329,Deinococcus peraridilitoris,species,.0644
+61JCNAAXX100503:5:1:2760:11417,992401,Amycolicicoccus,genus,.0059
+61JCNAAXX100503:5:1:2760:11417,754507,Aggregatibacter actinomycetemcomitans ANH9381,below_species,.0023
+61JCNAAXX100503:5:1:2760:11417,588673,Solirubrobacterales,order,.0145
+61JCNAAXX100503:5:1:2760:11417,80840,Burkholderiales,order,.0274
+61JCNAAXX100503:5:1:2760:11417,2335,Thermotoga,genus,.0031
+61JCNAAXX100503:5:1:2760:11417,171549,Bacteroidales,order,.0403
+61JCNAAXX100503:5:1:2760:11417,1030843,Porphyromonas gingivalis TDC60,below_species,.0035
+61JCNAAXX100503:5:1:2760:11417,457402,Eubacterium sp. 3_1_31,unnamed_species,.0004
+61JCNAAXX100503:5:1:2760:11417,75682,Oxalobacteraceae,family,.0018
+61JCNAAXX100503:5:1:2760:11417,2146,Acholeplasmataceae,family,.0232
+61JCNAAXX100503:5:1:2760:11417,1385,Bacillales,order,.0375
+61JCNAAXX100503:5:1:2760:11417,443218,Amycolicicoccus subflavus DQS3-9A1,below_species,.0059
+61JCNAAXX100503:5:1:2760:11417,454166,Salmonella enterica subsp. enterica serovar Agona str. SL483,below_below_subspecies,.0060
+61JCNAAXX100503:5:1:2760:11417,1218354,Chlamydia psittaci MN,below_species,.0016
+61JCNAAXX100503:5:1:2760:11417,679207,Escherichia coli MS 107-1,unnamed_species,.0027
+61JCNAAXX100503:5:1:2760:11417,171551,Porphyromonadaceae,family,.0239
+61JCNAAXX100503:5:1:2760:11417,520,Bordetella pertussis,species,.0018
+61JCNAAXX100503:5:1:2760:11417,506,Alcaligenaceae,family,.0018
+61JCNAAXX100503:5:1:2760:11417,1663,Arthrobacter,genus,.1174
+61JCNAAXX100503:5:1:2760:11417,72273,Thiotrichales,order,.0046
+61JCNAAXX100503:5:1:2760:11417,1569,Sporosarcina,genus,.0059
+61JCNAAXX100503:5:1:2760:11417,694427,Paludibacter propionicigenes WB4,below_species,.0066
+61JCNAAXX100503:5:1:2760:11417,1637,Listeria,genus,.0066
+61JCNAAXX100503:5:1:2760:11417,1760,Actinobacteria,class,.3944
+61JCNAAXX100503:5:1:2760:11417,28901,Salmonella enterica,species,.0212
+61JCNAAXX100503:5:1:2760:11417,203691,Spirochaetes,phylum,.0047
+61JCNAAXX100503:5:1:2760:11417,331271,Burkholderia cenocepacia AU 1054,below_species,.0037
+61JCNAAXX100503:5:1:2760:11417,189777,Thermomicrobiaceae,family,.0020
+61JCNAAXX100503:5:1:2760:11417,1508635,Roseiflexaceae,family,.0162
+61JCNAAXX100503:5:1:2760:11417,137,Spirochaetaceae,family,.0047
+61JCNAAXX100503:5:1:2760:11417,216851,Faecalibacterium,genus,.0028
+61JCNAAXX100503:5:1:2760:11417,1027292,Sporosarcina newyorkensis 2681,unnamed_species,.0059
+61JCNAAXX100503:5:1:2760:11417,976,Bacteroidetes,phylum,.0992
+61JCNAAXX100503:5:1:2760:11417,177437,Desulfobacterium autotrophicum HRM2,below_species,.0034
+61JCNAAXX100503:5:1:2760:11417,171436,Tistrella,genus,.0047
+61JCNAAXX100503:5:1:2760:11417,570,Klebsiella,genus,.0033
+61JCNAAXX100503:5:1:2760:11417,49546,Flavobacteriaceae,family,.0106
+61JCNAAXX100503:5:1:2760:11417,171550,Rikenellaceae,family,.0055
+61JCNAAXX100503:5:1:2760:11417,1249,Weissella paramesenteroides,species,.0180
+61JCNAAXX100503:5:1:2760:11417,185300,Paludibacter propionicigenes,species,.0066
+61JCNAAXX100503:5:1:2760:11417,28221,Deltaproteobacteria,class,.0357
+61JCNAAXX100503:5:1:2760:11417,1202464,Dehalococcoidaceae,family,.0035
+61JCNAAXX100503:5:1:2760:11417,106370,Frankia sp. CcI3,species,.0363
+61JCNAAXX100503:5:1:2760:11417,119912,Salmonella enterica subsp. enterica serovar Choleraesuis,below_subspecies,.0060
+61JCNAAXX100503:5:1:2760:11417,60552,Burkholderia vietnamiensis,species,.0037
+61JCNAAXX100503:5:1:2760:11417,59201,Salmonella enterica subsp. enterica,subspecies,.0212
+61JCNAAXX100503:5:1:2760:11417,33958,Lactobacillaceae,family,.0035
+61JCNAAXX100503:5:1:2760:11417,1551504,Candidatus Babela,genus,.0047
+61JCNAAXX100503:5:1:2760:11417,213119,Desulfobacteraceae,family,.0066
+61JCNAAXX100503:5:1:2760:11417,61171,Holdemania filiformis,species,.0003
+61JCNAAXX100503:5:1:2760:11417,320583,Conexibacteraceae,family,.0145
+61JCNAAXX100503:5:1:2760:11417,51291,Chlamydiales,order,.0049
+61JCNAAXX100503:5:1:2760:11417,117747,Sphingobacteriia,class,.0061
+61JCNAAXX100503:5:1:2760:11417,673862,Candidatus Babela massiliensis,unnamed_species,.0047
+61JCNAAXX100503:5:1:2760:11417,203267,Tropheryma whipplei str. Twist,below_species,.0025
+61JCNAAXX100503:5:1:2760:11417,135616,Piscirickettsiaceae,family,.0046
+61JCNAAXX100503:5:1:2760:11417,334413,Finegoldia magna ATCC 29328,below_species,.0018
+61JCNAAXX100503:5:1:2760:11417,1212,Prochlorales,order,.0238
+61JCNAAXX100503:5:1:2760:11417,1110502,Tistrella mobilis KA081020-065,below_species,.0047
+61JCNAAXX100503:5:1:2760:11417,413496,Cronobacter,genus,.0033
+61JCNAAXX100503:5:1:2760:11417,183710,Deinococcaceae,family,.1076
+61JCNAAXX100503:5:1:2760:11417,186826,Lactobacillales,order,.0216
+61JCNAAXX100503:5:1:2760:11417,511434,Candidatus Azobacteroides,genus,.0055
+61JCNAAXX100503:5:1:2760:11417,471857,Saccharomonospora viridis DSM 43017,below_species,.0278
+61JCNAAXX100503:5:1:2760:11417,189775,Thermomicrobia,class,.0020
+61JCNAAXX100503:5:1:2760:11417,641,Vibrionaceae,family,.0115
+61JCNAAXX100503:5:1:2760:11417,93059,Prochlorococcus marinus str. MIT 9211,below_species,.0052
+61JCNAAXX100503:5:1:2760:11417,456827,Candidatus Cloacimonas acidaminovorans,species,.0128
+61JCNAAXX100503:5:1:2760:11417,1547,Erysipelatoclostridium ramosum,species,.0018
+61JCNAAXX100503:5:1:2760:11417,157,Treponema,genus,.0047
+61JCNAAXX100503:5:1:2760:11417,2330,Halanaerobium,genus,.0125
+61JCNAAXX100503:5:1:2760:11417,375288,Parabacteroides,genus,.0035
+61JCNAAXX100503:5:1:2760:11417,433334,unclassified Erysipelotrichaceae,below_family,.0014
+61JCNAAXX100503:5:1:2760:11417,119060,Burkholderiaceae,family,.0238
+61JCNAAXX100503:5:1:2760:11417,120961,Roseiflexus,genus,.0162
+61JCNAAXX100503:5:1:2760:11417,283168,Odoribacter,genus,.0066
+61JCNAAXX100503:5:1:2760:11417,411471,Subdoligranulum variabile DSM 15176,unnamed_species,.0017
+61JCNAAXX100503:5:1:2760:11417,1508595,Roseiflexineae,suborder,.0162
+61JCNAAXX100503:5:1:2760:11417,2323,unclassified Bacteria,below_superkingdom,.0128
+61JCNAAXX100503:5:1:2760:11417,92945,Ketogulonicigenium vulgare,species,.0025
+61JCNAAXX100503:5:1:2760:11417,339670,Burkholderia ambifaria AMMD,below_species,.0037
+61JCNAAXX100503:5:1:2760:11417,188787,Deinococci,class,.1076
+61JCNAAXX100503:5:1:2760:11417,712215,Capnocytophaga sp. oral taxon 335,species,.0035
+61JCNAAXX100503:5:1:2760:11417,577468,unclassified Micrococcineae,below_suborder,.0025
+61JCNAAXX100503:5:1:2760:11417,656519,Halanaerobium hydrogeniformans,species,.0107
+61JCNAAXX100503:5:1:2760:11417,91061,Bacilli,class,.0591
+61JCNAAXX100503:5:1:2760:11417,760142,Hippea maritima DSM 10411,below_species,.0047
+61JCNAAXX100503:5:1:2760:11417,97050,Ruegeria,genus,.0173
+61JCNAAXX100503:5:1:2760:11417,930171,Arthrobacter phenanthrenivorans Sphe3,below_species,.0126
+61JCNAAXX100503:5:1:2760:11417,28211,Alphaproteobacteria,class,.0497
+61JCNAAXX100503:5:1:2760:11417,45456,unclassified Deltaproteobacteria,below_class,.0047
+61JCNAAXX100503:5:1:2760:11417,65555,Desulfocapsa sulfexigens,species,.0150
+61JCNAAXX100503:5:1:2760:11417,269800,Thermobifida fusca YX,below_species,.0111
+61JCNAAXX100503:5:1:2760:11417,512565,Actinoplanes missouriensis 431,below_species,.0049
+61JCNAAXX100503:5:1:2760:11417,214851,Subdoligranulum variabile,species,.0017
+61JCNAAXX100503:5:1:2760:11417,1116391,Paenibacillus mucilaginosus 3016,below_species,.0044
+61JCNAAXX100503:5:1:2760:11417,53946,Octadecabacter arcticus,species,.0168
+61JCNAAXX100503:5:1:2760:11417,200795,Chloroflexi,phylum,.0233
+61JCNAAXX100503:5:1:2760:11417,28216,Betaproteobacteria,class,.0274
+61JCNAAXX100503:5:1:2760:11417,58095,Salmonella enterica subsp. enterica serovar Agona,below_subspecies,.0060
+61JCNAAXX100503:5:1:2760:11417,31957,Propionibacteriaceae,family,.1396
+61JCNAAXX100503:5:1:2760:11417,233189,Anaerolinea,genus,.0016
+61JCNAAXX100503:5:1:2760:11417,2070,Pseudonocardiaceae,family,.0278
+61JCNAAXX100503:5:1:2760:11417,1747,Propionibacterium acnes,species,.0170
+61JCNAAXX100503:5:1:2760:11417,84405,Hippea maritima,species,.0047
+61JCNAAXX100503:5:1:2760:11417,538999,Clostridiales incertae sedis,below_order,.0018
+61JCNAAXX100503:5:1:2760:11417,544447,unclassified Erysipelotrichaceae (miscellaneous),below_below_family,.0009
+61JCNAAXX100503:5:1:2760:11417,883153,Myroides odoratimimus CCUG 3837,unnamed_species,.0035
+61JCNAAXX100503:5:1:2760:11417,2337,Thermotoga neapolitana,species,.0031
+61JCNAAXX100503:5:1:2760:11417,431947,Porphyromonas gingivalis ATCC 33277,below_species,.0035
+61JCNAAXX100503:5:1:2760:11417,117743,Flavobacteriia,class,.0106
+61JCNAAXX100503:5:1:2760:11417,2038,Tropheryma,genus,.0025
+61JCNAAXX100503:5:1:2760:11417,992,Flexibacter,genus,.0178
+61JCNAAXX100503:5:1:2760:11417,61624,Paenibacillus mucilaginosus,species,.0238
+61JCNAAXX100503:5:1:2760:11417,657,Photobacterium,genus,.0016
+61JCNAAXX100503:5:1:2760:11417,596324,Treponema vincentii ATCC 35580,unnamed_species,.0047
+61JCNAAXX100503:5:1:2760:11417,563843,Rhodothermaceae,family,.0184
+61JCNAAXX100503:5:1:2760:11417,445974,Erysipelatoclostridium ramosum DSM 1402,unnamed_species,.0018
+61JCNAAXX100503:5:1:2760:11417,377615,Thermobacillus composti,species,.0012
+61JCNAAXX100503:5:1:2760:11417,2295,Desulfobacterium,genus,.0034
+61JCNAAXX100503:5:1:2760:11417,200644,Flavobacteriales,order,.0106
+61JCNAAXX100503:5:1:2760:11417,51290,Chlamydiae/Verrucomicrobia group,superphylum,.0049
+61JCNAAXX100503:5:1:2760:11417,33010,Propionibacterium avidum,species,.0877
+61JCNAAXX100503:5:1:2760:11417,85013,Frankineae,suborder,.0469
+61JCNAAXX100503:5:1:2760:11417,32033,Xanthomonadaceae,family,.0036
+61JCNAAXX100503:5:1:2760:11417,346096,Paludibacter,genus,.0066
+61JCNAAXX100503:5:1:2760:11417,117942,Desulfurellaceae,family,.0047
+61JCNAAXX100503:5:1:2760:11417,972,Halanaerobiaceae,family,.0125
+61JCNAAXX100503:5:1:2760:11417,292414,Ruegeria sp. TM1040,species,.0086
+61JCNAAXX100503:5:1:2760:11417,47770,Lactobacillus crispatus,species,.0018
+61JCNAAXX100503:5:1:2760:11417,1744,Propionibacterium freudenreichii,species,.0129
+61JCNAAXX100503:5:1:2760:11417,884214,Candidatus Zinderia,genus,.0018
+61JCNAAXX100503:5:1:2760:11417,640131,Klebsiella variicola At-22,below_species,.0033
+61JCNAAXX100503:5:1:2760:11417,1219,Prochlorococcus marinus,species,.0238
+61JCNAAXX100503:5:1:2760:11417,46255,Weissella,genus,.0180
+61JCNAAXX100503:5:1:2760:11417,1762,Mycobacteriaceae,family,.0059
+61JCNAAXX100503:5:1:2760:11417,321314,Salmonella enterica subsp. enterica serovar Choleraesuis str. SC-B67,below_below_subspecies,.0060
+61JCNAAXX100503:5:1:2760:11417,2702,Gardnerella vaginalis,species,.0023
+61JCNAAXX100503:5:1:2760:11417,213113,Desulfurellales,order,.0047
+61JCNAAXX100503:5:1:2760:11417,1866,Actinoplanes missouriensis,species,.0049
+61JCNAAXX100503:5:1:2760:11417,372461,Buchnera aphidicola BCc,below_below_species,.0046
+61JCNAAXX100503:5:1:2760:11417,884215,Candidatus Zinderia insecticola,species,.0018
+61JCNAAXX100503:5:1:2760:11417,1851,Saccharomonospora,genus,.0278
+61JCNAAXX100503:5:1:2760:11417,361575,Arthrobacter phenanthrenivorans,species,.0126
+61JCNAAXX100503:5:1:2760:11417,32064,Chloroflexales,order,.0162
+61JCNAAXX100503:5:1:2760:11417,69710,Treponema vincentii,species,.0047
+61JCNAAXX100503:5:1:2760:11417,85003,Actinobacteridae,subclass,.3799
+61JCNAAXX100503:5:1:2760:11417,393130,Listeria monocytogenes J0161,below_species,.0016
+61JCNAAXX100503:5:1:2760:11417,997355,Propionibacterium avidum ATCC 25577,unnamed_species,.0292
+61JCNAAXX100503:5:1:2760:11417,85004,Bifidobacteriales,order,.0023
+61JCNAAXX100503:5:1:2760:11417,188709,Thermotogaceae,family,.0031
+61JCNAAXX100503:5:1:2760:11417,754476,Methylophaga nitratireducenticrescens,species,.0034
+61JCNAAXX100503:5:1:2760:11417,46503,Parabacteroides merdae,species,.0035
+61JCNAAXX100503:5:1:2760:11417,2296,Desulfobacterium autotrophicum,species,.0034
+61JCNAAXX100503:5:1:2760:11417,853,Faecalibacterium prausnitzii,species,.0028
+61JCNAAXX100503:5:1:2760:11417,292625,Anaerolineae,class,.0016
+61JCNAAXX100503:5:1:2760:11417,1217,Prochlorococcaceae,family,.0238
+61JCNAAXX100503:5:1:2760:11417,2039,Tropheryma whipplei,species,.0025
+61JCNAAXX100503:5:1:2760:11417,290399,Arthrobacter sp. FB24,species,.0188
+61JCNAAXX100503:5:1:2760:11417,1752,Propionibacterium freudenreichii subsp. shermanii,subspecies,.0129
+61JCNAAXX100503:5:1:2760:11417,95486,Burkholderia cenocepacia,species,.0146
+61JCNAAXX100503:5:1:2760:11417,83677,Thermobifida,genus,.0111
+61JCNAAXX100503:5:1:2760:11417,636,Edwardsiella tarda,species,.0033
+61JCNAAXX100503:5:1:2760:11417,1138308,Cronobacter sakazakii ES15,below_species,.0033
+61JCNAAXX100503:5:1:2760:11417,1584,Lactobacillus delbrueckii,species,.0018
+61JCNAAXX100503:5:1:2760:11417,31969,Mollicutes,class,.0339
+61JCNAAXX100503:5:1:2760:11417,1236,Gammaproteobacteria,class,.0836
+61JCNAAXX100503:5:1:2760:11417,331272,Burkholderia cenocepacia HI2424,below_species,.0037
+61JCNAAXX100503:5:1:2760:11417,292629,Anaerolineales,order,.0016
+61JCNAAXX100503:5:1:2760:11417,1505663,Erysipelatoclostridium,genus,.0035
+61JCNAAXX100503:5:1:2760:11417,937777,Deinococcus peraridilitoris DSM 19664,below_species,.0644
+61JCNAAXX100503:5:1:2760:11417,556270,Coprobacillus sp. D7,unnamed_species,.0018
+61JCNAAXX100503:5:1:2760:11417,544448,Tenericutes,phylum,.0339
+61JCNAAXX100503:5:1:2760:11417,68336,Bacteroidetes/Chlorobi group,superphylum,.0992
+61JCNAAXX100503:5:1:2760:11417,1218358,Chlamydia psittaci WC,below_species,.0016
+61JCNAAXX100503:5:1:2760:11417,1578,Lactobacillus,genus,.0035
+61JCNAAXX100503:5:1:2760:11417,131568,Kineococcus radiotolerans,species,.0078
+61JCNAAXX100503:5:1:2760:11417,135614,Xanthomonadales,order,.0036
+61JCNAAXX100503:5:1:2760:11417,150022,Finegoldia,genus,.0018
+61JCNAAXX100503:5:1:2760:11417,83554,Chlamydia psittaci,species,.0049
+61JCNAAXX100503:5:1:2760:11417,1018,Capnocytophaga ochracea,species,.0035
+61JCNAAXX100503:5:1:2760:11417,759851,Sporosarcina newyorkensis,species,.0059
+61JCNAAXX100503:5:1:2760:11417,1852,Saccharomonospora viridis,species,.0278
+61JCNAAXX100503:5:1:2760:11417,189776,Thermomicrobiales,order,.0020
+61JCNAAXX100503:5:1:2760:11417,562,Escherichia coli,species,.0107
+61JCNAAXX100503:5:1:2760:11417,266940,Kineococcus radiotolerans SRS30216 = ATCC BAA-149,below_species,.0078
+61JCNAAXX100503:5:1:2760:11417,269482,Burkholderia vietnamiensis G4,below_species,.0037
+61JCNAAXX100503:5:1:2760:11417,92944,Ketogulonicigenium,genus,.0025
+61JCNAAXX100503:5:1:2760:11417,1224,Proteobacteria,phylum,.1965
+61JCNAAXX100503:5:1:2760:11417,456828,Cloacimonetes,phylum,.0128
+61JCNAAXX100503:5:1:2760:11417,301297,Dehalococcoidia,class,.0035
+61JCNAAXX100503:5:1:2760:11417,997761,Paenibacillus mucilaginosus K02,below_species,.0044
+61JCNAAXX100503:5:1:2760:11417,32199,Buchnera,genus,.0046
+61JCNAAXX100503:5:1:2760:11417,694569,Aggregatibacter actinomycetemcomitans D7S-1,below_species,.0023
+61JCNAAXX100503:5:1:2760:11417,9,Buchnera aphidicola,species,.0046
+61JCNAAXX100503:5:1:2760:11417,204455,Rhodobacterales,order,.0451
+61JCNAAXX100503:5:1:2760:11417,33981,Kineococcus,genus,.0078
+61JCNAAXX100503:5:1:2760:11417,809,Chlamydiaceae,family,.0049
+61JCNAAXX100503:5:1:2760:11417,543310,Clostridiales Family XI. Incertae Sedis,family,.0018
+61JCNAAXX100503:5:1:2760:11417,2419,Thermotogales,order,.0031
+61JCNAAXX100503:5:1:2760:11417,100883,Coprobacillus,genus,.0035
+61JCNAAXX100503:5:1:2760:11417,213118,Desulfobacterales,order,.0216
+61JCNAAXX100503:5:1:2760:11417,517,Bordetella,genus,.0018
+61JCNAAXX100503:5:1:2760:11417,204441,Rhodospirillales,order,.0047
+61JCNAAXX100503:5:1:2760:11417,204428,Chlamydiae,phylum,.0049
+61JCNAAXX100503:5:1:2760:11417,85010,Pseudonocardineae,suborder,.0278
+61JCNAAXX100503:5:1:2760:11417,2037,Actinomycetales,order,.3776
+61JCNAAXX100503:5:1:2760:11417,712,Pasteurellaceae,family,.0116
+61JCNAAXX100503:5:1:2760:11417,391616,Octadecabacter arcticus 238,below_species,.0168
+61JCNAAXX100503:5:1:2760:11417,1,root,root,1.0000
+61JCNAAXX100503:5:1:2760:11417,511435,Candidatus Azobacteroides pseudotrichonymphae,species,.0055
+61JCNAAXX100503:5:1:2760:11417,1585,Lactobacillus delbrueckii subsp. bulgaricus,subspecies,.0018
+61JCNAAXX100503:5:1:2760:11417,34067,Cycloclasticus,genus,.0012
+61JCNAAXX100503:5:1:2760:11417,186822,Paenibacillaceae,family,.0250
+61JCNAAXX100503:5:1:2760:11417,768507,Cytophagales,order,.0178
+61JCNAAXX100503:5:1:2760:11417,91347,Enterobacteriales,order,.0464
+61JCNAAXX100503:5:1:2760:11417,585506,Weissella paramesenteroides ATCC 33313,unnamed_species,.0180
+61JCNAAXX100503:5:1:2760:11417,32008,Burkholderia,genus,.0238
+61JCNAAXX100503:5:1:2760:11417,662,Vibrio,genus,.0098
+61JCNAAXX100503:5:1:2760:11417,1260,Finegoldia magna,species,.0018
+61JCNAAXX100503:5:1:2760:11417,1125720,Capnocytophaga sp. oral taxon 335 str. F0486,unnamed_species,.0035
+61JCNAAXX100503:5:1:2760:11417,40222,Methylophaga,genus,.0034
+61JCNAAXX100503:5:1:2760:11417,61435,Dehalococcoides mccartyi,species,.0035
+61JCNAAXX100503:5:1:2760:11417,748671,Lactobacillus crispatus ST1,below_species,.0018
+61JCNAAXX100503:5:1:2760:11417,1268,Micrococcaceae,family,.1174
+61JCNAAXX100503:5:1:2760:11417,28048,Acidothermus,genus,.0051
+61JCNAAXX100503:5:1:2760:11417,749530,Escherichia coli MS 60-1,unnamed_species,.0027
+61JCNAAXX100503:5:1:2760:11417,203692,Spirochaetia,class,.0047
+61JCNAAXX100503:5:1:2760:11417,200918,Thermotogae,phylum,.0031
+61JCNAAXX100503:5:1:2760:11417,74546,Prochlorococcus marinus str. MIT 9312,below_species,.0107
+61JCNAAXX100503:5:1:2760:11417,810,Chlamydia,genus,.0049
+61JCNAAXX100503:5:1:2760:11417,81850,Leuconostocaceae,family,.0180
+61JCNAAXX100503:5:1:2760:11417,76832,Myroides odoratimimus,species,.0035
+61JCNAAXX100503:5:1:2760:11417,1202465,Dehalococcoidales,order,.0035
+61JCNAAXX100503:5:1:2760:11417,768066,Halomonas elongata DSM 2581,below_species,.0060
+61JCNAAXX100503:5:1:2760:11417,561,Escherichia,genus,.0107
+61JCNAAXX100503:5:1:2760:11417,31989,Rhodobacteraceae,family,.0451
+61JCNAAXX100503:5:1:2760:11417,717605,Thermobacillus composti KWC4,below_species,.0012
+61JCNAAXX100503:5:1:2760:11417,836,Porphyromonas,genus,.0071
+61JCNAAXX100503:5:1:2760:11417,135619,Oceanospirillales,order,.0060
+61JCNAAXX100503:5:1:2760:11417,85085,Arthrobacter chlorophenolicus,species,.0192
+61JCNAAXX100503:5:1:2760:11417,416916,Aggregatibacter,genus,.0116
+61JCNAAXX100503:5:1:2760:11417,714,Aggregatibacter actinomycetemcomitans,species,.0116
+61JCNAAXX100503:5:1:2760:11417,188708,Thermotogae,class,.0031
+61JCNAAXX100503:5:1:2760:11417,406425,Burkholderia cenocepacia MC0-3,below_species,.0037
+61JCNAAXX100503:5:1:2760:11417,498217,Edwardsiella tarda EIB202,below_species,.0033
+61JCNAAXX100503:5:1:2760:11417,89373,Cytophagaceae,family,.0178
+61JCNAAXX100503:5:1:2760:11417,456826,Candidatus Cloacimonas,genus,.0128
+61JCNAAXX100503:5:1:2760:11417,1298,Deinococcus,genus,.1076
+61JCNAAXX100503:5:1:2760:11417,552396,Erysipelotrichaceae bacterium 5_2_54FAA,unnamed_species,.0009
+61JCNAAXX100503:5:1:2760:11417,76831,Myroides,genus,.0035
+61JCNAAXX100503:5:1:2760:11417,2147,Acholeplasma,genus,.0178
+61JCNAAXX100503:5:1:2760:11417,500,Thermomicrobium roseum,species,.0020
+61JCNAAXX100503:5:1:2760:11417,1167006,Desulfocapsa sulfexigens DSM 10523,below_species,.0150
+61JCNAAXX100503:5:1:2760:11417,53433,Halanaerobiales,order,.0125
+61JCNAAXX100503:5:1:2760:11417,526524,Erysipelotrichia,class,.0091
+61JCNAAXX100503:5:1:2760:11417,1016,Capnocytophaga,genus,.0071

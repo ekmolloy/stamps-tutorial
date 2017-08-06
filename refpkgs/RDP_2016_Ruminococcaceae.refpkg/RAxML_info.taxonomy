@@ -1,0 +1,62 @@
+
+
+This is RAxML version 8.2.9 released by Alexandros Stamatakis on July 20 2016.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 8161 distinct alignment patterns
+
+Found 0 invariant alignment patterns that correspond to 0 columns
+Proportion of gaps and completely undetermined characters in this alignment: 88.78%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 user-specified trees
+
+All free model parameters will be estimated by RAxML
+ML estimate of 25 per site rate categories
+
+Likelihood of final tree will be evaluated and optimized under GAMMA+P-Invar
+
+GAMMA+P-Invar Model parameters will be estimated up to an accuracy of 0.0010000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 8161
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+/home/nute2/Phylolab/standard-RAxML/raxmlHPC-PTHREADS-SSE3 -m GTRCATI -F -T 16 -p 1111 -g /projects/tallis/nute/work/metagenomics/tipp_new_rdp/unrefined.taxonomy.renamed -s /projects/tallis/nute/work/metagenomics/tipp_new_rdp/pasta.fasta -n refined -w /projects/tallis/nute/work/metagenomics/tipp_new_rdp/raxml_output
+
+
+Base frequencies: 0.248 0.239 0.293 0.220
+
+Inference[0]: Time 12933.863505 CAT-based likelihood -2013884.446370, best rearrangement setting 25
+alpha[0]: 1.000000 rates[0] ac ag at cg ct gt: 0.772100 2.187799 1.299389 0.753764 3.280375 1.000000 
+
+
+NOT conducting any final model optimizations on all 1 trees under CAT-based model ....
+
+REMEMBER that CAT-based likelihood scores are meaningless!
+
+Program execution info written to /projects/tallis/nute/work/metagenomics/tipp_new_rdp/raxml_output/RAxML_info.refined
+Overall execution time: 12969.986948 secs or 3.602774 hours or 0.150116 days

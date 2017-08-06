@@ -1,0 +1,45 @@
+{
+  "tree": "(((((((Clostridium_aldrichii_1:0.01825583[0],(((Clostridium_straminisolvens_1:0.006188719[1],((Ruminiclostridium_thermocellum_2:5e-09[2],((((Ruminiclostridium_thermocellum_8:0.0[3],Ruminiclostridium_thermocellum_5:0.0[4]):5e-09[5],(Ruminiclostridium_thermocellum_3:0.0[6],Ruminiclostridium_thermocellum_1:0.0[7]):5e-09[8])LoGkyVuQN0000150_938:0.001096061[9],(Ruminiclostridium_thermocellum_6:5e-09[10],Ruminiclostridium_thermocellum_4:5e-09[11])LoGkyVuQN0000160_000:5e-09[12])LoGkyVuQN0000140_845:0.000547807[13],Ruminiclostridium_thermocellum_7:5e-09[14])LoGkyVuQN0000130_000:5e-09[15])LoGkyVuQN0000120_993:0.012535588[16],Clostridium_clariflavum_1:0.029682473[17])LoGkyVuQN0000110_855:0.009943448[18])LoGkyVuQN0000100_485:0.011252758[19],((Clostridium_viride_1:0.068852587[20],((Clostridium_methylpentosum_1:0.031270984[21],(Clostridium_cellulosi_1:0.097596159[22],(Clostridium_sporosphaeroides_1:0.043547249[23],Clostridium_leptum_1:0.03288966[24])LoGkyVuQN0000221_000:0.042532691[25])LoGkyVuQN0000210_174:0.027030556[26])LoGkyVuQN0000200_581:0.027492774[27],Eubacterium_siraeum_1:0.100378057[28])LoGkyVuQN0000190_997:0.042643425[29])LoGkyVuQN0000180_999:0.0406615[30],(Clostridium_stercorarium_2:0.000979299[31],Clostridium_stercorarium_1:0.00357612[32])LoGkyVuQN0000231_000:0.088770968[33])LoGkyVuQN0000170_989:0.024471489[34])LoGkyVuQN0000090_866:0.005091565[35],Clostridium_alkalicellulosi_1:0.041114544[36])LoGkyVuQN0000080_930:0.007137019[37])LoGkyVuQN0000070_149:0.001523026[38],(((Clostridium_cellobioparum_1:0.006810203[39],Clostridium_termitidis_1:5e-09[40])LoGkyVuQN0000260_936:0.009725226[41],((Clostridium_papyrosolvens_1:0.013132975[42],(Clostridium_cellulolyticum_1:0.013876814[43],Clostridium_josui_1:0.010603507[44])LoGkyVuQN0000290_957:0.015438452[45])LoGkyVuQN0000280_801:0.013308195[46],((Clostridium_hungatei_1:0.004594078[47],Clostridium_hungatei_2:0.005408902[48])LoGkyVuQN0000310_969:0.017447261[49],Clostridium_sufflavum_1:0.016070997[50])LoGkyVuQN0000300_988:0.025678272[51])LoGkyVuQN0000270_695:0.004333459[52])LoGkyVuQN0000251_000:0.035608698[53],Clostridium_thermosuccinogenes_1:0.060374444[54])LoGkyVuQN0000241_000:0.040574038[55])LoGkyVuQN0000060_000:0.000814995[56],(Acetivibrio_cellulolyticus_1:0.013947186[57],Acetivibrio_ethanolgignens_1:0.23163958[58])LoGkyVuQN0000320_000:0.001900019[59])LoGkyVuQN0000050_925:0.009714631[60],(Pseudobacteroides_cellulosolvens_1:0.02357105[61],Anaerobacterium_chartisolvens_1:0.035328497[62])LoGkyVuQN0000330_976:0.020132246[63])LoGkyVuQN0000040_998:0.029896928[64],((Saccharofermentans_acetigenes_1:0.044214467[65],Ercella_succinigenes_1:0.049726072[66])LoGkyVuQN0000350_979:0.025348314[67],Fastidiosipila_sanguinis_1:0.131543277[68])LoGkyVuQN0000340_851:0.012878993[69])LoGkyVuQN0000031_000:0.036749443[70],(((Ruminococcus_bromii_1:0.077948368[71],((Ruminococcus_flavefaciens_1:0.03050594[72],(Ruminococcus_champanellensis_1:0.023968484[73],Ruminococcus_callidus_1:0.039977829[74])LoGkyVuQN0000410_746:0.007912352[75])LoGkyVuQN0000400_999:0.027296034[76],Ruminococcus_albus_1:0.052133765[77])LoGkyVuQN0000390_698:0.01354753[78])LoGkyVuQN0000380_916:0.009177626[79],(Ruminococcus_gauvreauii_1:0.037893842[80],(Ruminococcus_faecis_1:0.015019966[81],Ruminococcus_lactaris_1:0.02721228[82])LoGkyVuQN0000430_957:0.024427234[83])LoGkyVuQN0000421_000:0.197882341[84])LoGkyVuQN0000370_000:5e-09[85],((Anaerotruncus_colihominis_1:0.057184034[86],Hydrogenoanaerobacterium_saccharovorans_1:0.048546076[87])LoGkyVuQN0000450_940:0.013198663[88],(Acetanaerobacterium_elongatum_1:0.057265829[89],(Ethanoligenens_harbinense_1:0.065811345[90],((Anaerofilum_agile_1:0.005760232[91],Anaerofilum_pentosovorans_1:0.004995882[92])LoGkyVuQN0000490_999:0.033412898[93],(Faecalibacterium_prausnitzii_1:0.058780603[94],(Subdoligranulum_variabile_1:0.003400264[95],Gemmiger_formicilis_1:0.014050134[96])LoGkyVuQN0000510_993:0.024974017[97])LoGkyVuQN0000501_000:0.044847315[98])LoGkyVuQN0000481_000:0.040524789[99])LoGkyVuQN0000470_336:0.015094181[100])LoGkyVuQN0000460_885:0.009113504[101])LoGkyVuQN0000440_967:0.024795705[102])LoGkyVuQN0000361_000:0.034442927[103])LoGkyVuQN0000020_902:0.011988579[104],(Sporobacter_termitidis_1:0.049124973[105],Papillibacter_cinnamivorans_1:0.049212848[106])LoGkyVuQN0000520_995:0.026981885[107])LoGkyVuQN0000010_000;",
+  "placements": [{
+      "p": [[68, -7900.176, 1, 0.08394711, 0.14101689]],
+      "nm": [["GEQJ1S110GEAZV",
+          1]]
+    },
+    {
+      "p": [[68, -7847.92, 1, 0.07459259, 0.14526443]],
+      "nm": [["GEQJ1S110GHR11",
+          1]]
+    },
+    {
+      "p": [[65, -7465.953, 0.32499126, 0.04420907, 0.3190182],
+        [67, -7465.9536, 0.32495964, 0.000006188553, 0.31901827],
+        [66, -7465.9536, 0.3248453, 0.04972, 0.3190181],
+        [68, -7469.4146, 0.010200623, 0.12965019, 0.33505535],
+        [69, -7469.4326, 0.010021065, 0.0000062885706, 0.33695862],
+        [70, -7470.1313, 0.0049820947, 0.01802643, 0.34145167]],
+      "nm": [["GEQJ1S112HF5CU",
+          1]]
+    },
+    {
+      "p": [[84, -8276.332, 1, 0.12032978, 0.18713]],
+      "nm": [["GEQJ1S112HNELY",
+          1]]
+    },
+    {
+      "p": [[68, -5914.8994, 0.3184231, 0.10140762, 0.23111603],
+        [64, -5915.0146, 0.28377616, 0.022764023, 0.25676146],
+        [70, -5915.473, 0.17939132, 0.0040116752, 0.2582587],
+        [69, -5915.518, 0.1714955, 0.012872704, 0.26216617],
+        [67, -5916.8145, 0.04691392, 0.025342125, 0.26408476]],
+      "nm": [["GBEHU2E07D5RLY",
+          1]]
+    }],
+  "metadata": {
+    "invocation": "SEPP-generated json file (sepp 2)."
+  },
+  "version": 1, "fields": ["edge_num",
+    "likelihood",
+    "like_weight_ratio",
+    "distal_length",
+    "pendant_length"]
+}

@@ -1,0 +1,22 @@
+{
+  "tree": "((Heliophilum_fasciatum_1:0.004705147[0],(Heliophilum_fasciatum_3:0.00231447[1],Heliophilum_fasciatum_2:0.000868101[2])LoGkyVuQN0000030_000:5e-09[3])LoGkyVuQN0000020_999:0.03649383[4],((Heliorestis_baculata_1:0.018983421[5],Heliorestis_daurensis_1:0.03182568[6])LoGkyVuQN0000051_000:0.057851706[7],((Heliobacterium_chlorum_1:0.022522536[8],((Heliobacterium_sulfidophilum_1:0.017982708[9],Heliobacterium_undosum_1:0.007224506[10])LoGkyVuQN0000090_986:0.008667019[11],((((Heliobacterium_modesticaldum_2:5e-09[12],Heliobacterium_modesticaldum_7:0.001172368[13])LoGkyVuQN0000130_950:0.001171779[14],(Heliobacterium_modesticaldum_4:5e-09[15],(Heliobacterium_modesticaldum_1:5e-09[16],(Heliobacterium_modesticaldum_11:0.0[17],Heliobacterium_modesticaldum_9:0.0[18]):0.000584079[19])LoGkyVuQN0000150_741:4.4e-08[20])LoGkyVuQN0000140_000:5e-09[21])LoGkyVuQN0000120_926:0.004408313[22],(Heliobacterium_modesticaldum_5:0.000629281[23],(Heliobacterium_modesticaldum_6:0.002382984[24],(Heliobacterium_modesticaldum_8:0.000590062[25],(Heliobacterium_modesticaldum_10:0.001180914[26],Heliobacterium_modesticaldum_3:0.001179187[27])LoGkyVuQN0000190_778:0.000591595[28])LoGkyVuQN0000180_776:0.000598014[29])LoGkyVuQN0000170_760:0.000538281[30])LoGkyVuQN0000160_794:0.002378424[31])LoGkyVuQN0000110_982:0.01027907[32],Heliobacterium_gestii_1:0.013810466[33])LoGkyVuQN0000100_862:0.002552429[34])LoGkyVuQN0000080_996:0.018439215[35])LoGkyVuQN0000070_000:5e-09[36],Heliobacillus_mobilis_1:0.020663705[37])LoGkyVuQN0000060_867:0.012758656[38])LoGkyVuQN0000040_951:0.023968291[39])LoGkyVuQN0000011_000;",
+  "placements": [{
+      "p": [[17, -1.7221228, 0.14285715, 0, 0.000006113515],
+        [18, -1.7221228, 0.14285715, 0, 0.000006113515],
+        [15, -1.7221228, 0.14285715, 2.5E-9, 0.000006113515],
+        [16, -1.7221228, 0.14285715, 2.5E-9, 0.000006113515],
+        [20, -1.7221228, 0.14285715, 2.2E-8, 0.000006113515],
+        [12, -1.7221228, 0.14285715, 2.5E-9, 0.000006113515],
+        [21, -1.7221228, 0.14285715, 2.5E-9, 0.000006113515]],
+      "nm": [["GEQJ1S112HN8VO",
+          1]]
+    }],
+  "metadata": {
+    "invocation": "SEPP-generated json file (sepp 2)."
+  },
+  "version": 1, "fields": ["edge_num",
+    "likelihood",
+    "like_weight_ratio",
+    "distal_length",
+    "pendant_length"]
+}

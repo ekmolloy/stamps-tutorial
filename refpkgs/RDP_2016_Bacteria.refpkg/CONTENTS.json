@@ -1,0 +1,32 @@
+{
+    "files": {
+        "phylo_model": "", 
+        "taxonomy": "taxonomy.table", 
+        "tree_file": "pasta.taxonomy", 
+		"tree": "pasta.taxonomy",
+        "aln_fasta": "pasta.fasta", 
+        "seq_info": "species.mapping", 
+        "tree_stats": "RAxML_info.taxonomy"
+    }, 
+    "rollback": null, 
+    "log": [
+        "Stripped refpkg (removed 0 files)", 
+        "Loaded initial files into empty refpkg"
+    ], 
+    "metadata": {
+        "package_version": "1.0", 
+        "locus": "16S", 
+        "create_date": "2017-02-23 09:40:00", 
+        "format_version": "1.1", 
+        "author": "Michael Nute <nute2@illinois.edu>"
+    }, 
+    "rollforward": null, 
+    "md5": {
+        "phylo_model": "9f82945b22e64e603ad346ece23dfb4b", 
+        "taxonomy": "d493f466ca4ebd56d3acd402b80d3839", 
+        "tree_file": "b454ca86ebaa4e711ad594acc874a77e", 
+        "aln_fasta": "285b149c6c279fad87bb9e132b6f1982", 
+        "seq_info": "4de9c48ede9111dec6f2ce2a225bb498", 
+        "tree_stats": "e19e13433ccf890d40c9a8eb63e19641"
+    }
+}
