@@ -162,17 +162,17 @@ scp [user-name]@[mbl-server-name]:~/stamps-tutorial/sepp/SEPP-RDP-RUMINO-READS_s
 ```
 [MSAViewer](http://msa.biojs.net) can be used to visualize the multiple sequence alignment. Scroll down and click he little arrow icon under "Use It". Then click "Import" followed by "From file".
 
-*Before moving on, use the [cladogram](images/rumino-cladogram.pdf) to identify other reference sequences near GEQJ1S112HF5CU (e.g., Ercella_succinigenes_1 or Fastidiosipila_sanguinis_1), and visualize the alignment on all of these sequences. What do you think about TIPP (using either 0.50 or 0.95 support thresholds) classifing GEQJ1S112HNEL as Ruminococcaceae family but Unclassified at the genus and species levels? Use the [cladogram](images/helio-cladogram.pdf) to identify other reference sequences near GEQJ1S112HN8VO (e.g., Heliobacterium_modesticaldum_11), and visualize the alignment. What do you think about TIPP (with 0.50 support thresholds) classifying GEQJ1S112HN8VO as Heliobacterium modesticaldum Ice1 (below species level) and TIPP (with 0.95 support thresholds) classifying GEQJ1S112HN8VO as Clostridiales order and unclassified at the family, genus, and species levels?*
+*Before moving on, let's consider the relationship between alignment, placement, and classification. Go back to the TIPP directory*
+```
+cd ../TIPP
+```
+*Use the [cladogram](images/helio-cladogram.pdf) to identify reference sequences near GEQJ1S112HN8VO (e.g., Heliobacterium_modesticaldum_11). Extract these sequences from the alignment file from TIPP and visualize. Now examine the placement file from TIPP. What are the branch lengths for connecting GEQJ1S112HN8VO to the Clostridia reference tree? Now... What do you think about TIPP (with 0.50 support thresholds) classifying GEQJ1S112HN8VO as Heliobacterium modesticaldum Ice1 (below species level) and TIPP (with 0.95 support thresholds) classifying GEQJ1S112HN8VO as Clostridiales order and Unclassified at the family, genus, and species levels?*
 
 **NOTE: Small reference alignments and trees are used in this tutorial to save time and make visualization easier; however, the benefits of using SEPP/TIPP are greatest when trees have a large evolutionary diameters -- which is more likely for trees are large. New tools for visualizing phylogenetic placements for large trees are on the way courtesy of [Mike Nute](https://publish.illinois.edu/michaelnute/)!**
 
 Part III: Phylogenetic (Abundance) Profiling with TIPP
 ------------------------------------------------------
-All prior analyses are on 16S -- which is not a single copy marker. TIPP can also be used for phylogenetic (abundance) profiling by using a set of marker genes. First, BLAST is used to identify whether a read is a match for a specific marker gene. If so, TIPP is used to classify the read. To run this analysis (in the future), change back into the tipp directory,
-```
-cd ../tipp
-```
-create an output directory,
+All prior analyses are on 16S -- which is not a single copy marker. TIPP can also be used for phylogenetic (abundance) profiling by using a set of marker genes. First, BLAST is used to identify whether a read is a match for a specific marker gene. If so, TIPP is used to classify the read. To run this analysis (in the future), create an output directory,
 ```
 mkdir TIPP-COGS-95-SRR059420
 mkdir TIPP-COGS-95-SRR059420/markers
