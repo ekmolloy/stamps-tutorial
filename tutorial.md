@@ -91,7 +91,7 @@ cat FINAL-TIPP-RDP-CLOSTRIDIA-95-SRR1219742_species.csv
 ```
 shows the vast majority of reads are unclassified (545 reads). Classified reads are largely Fastidiosipila sanguinis (213 reads) and Anaerovorax odorimutans (144 reads). What do read counts look like at the genus and family level? 
 
-*Before moving on, repeat this portion of the tutorial running TIPP with a lower alignment/placement threshold (e.g., 0.50), and compare the number of reads unclassified at the species level.*
+*Before moving on, repeat this portion of the tutorial running TIPP with a lower alignment/placement support threshold (e.g., 0.50). What do the support values look like for reads classified at the species level? How does the number of reads unclassified at the species level compare to TIPP run with an alignment/placement support threshold of 0.95?*
 
 **FINAL NOTE: In general, SEPP/TIPP should be run on reads and their reverse complement. This has already been done for the 16S data used in this tutorial.**
 
