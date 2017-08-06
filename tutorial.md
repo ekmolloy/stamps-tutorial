@@ -73,6 +73,7 @@ By now TIPP may have finished and written the following five files
 + [classification information -- csv](tipp/out/TIPP-RDP-CLOSTRIDIA-95-SRR1219742_classification.txt)
 + [phylogenetic placement information -- json](tipp/out/TIPP-RDP-CLOSTRIDIA-95-SRR1219742_placement.json)
 + [alignment on both the reference and query sequences -- fasta](tipp/out/TIPP-RDP-CLOSTRIDIA-95-SRR1219742_alignment.fasta.gz)
+
 The classification file shows the support of classifying sequences at each taxonomic rank. Check out the support for species-level classification via
 ```
 grep ",species," TIPP-RDP-CLOSTRIDIA-95-SRR1219742_classification.txt
@@ -83,13 +84,16 @@ python ../tools/restructure_tipp_classification.py \
     -i TIPP-RDP-CLOSTRIDIA-95-SRR1219742_classification.txt \
     -o FINAL-TIPP-RDP-CLOSTRIDIA-95-SRR1219742
 ```
-and examining this files
+and examining the read count for species level classification
 ```
 cat FINAL-TIPP-RDP-CLOSTRIDIA-95-SRR1219742_species.csv
 ```
-shows the vast majority of reads are identified as Fastidiosipila sanguinis (213 reads) followed by Anaerovorax odorimutans (144 reads).
+shows the vast majority of reads are unclassified (545 reads). Classified reads are largely Fastidiosipila sanguinis (213 reads) and Anaerovorax odorimutans (144 reads).
 
-**Before moving on, it is important to note that TIPP should be run on reads and their reverse complement.**
+
+**Before moving on, repeat this portion of the tutorial using a lower alignment/placement threshold (e.g., 0.50) and compare the number of reads classification at the species level.**
+
+**FINAL NOTE: In general, TIPP should be run on reads and their reverse complement.**
 
 
 Part II: Phylogenetic Placement using SEPP
