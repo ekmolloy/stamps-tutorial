@@ -172,7 +172,7 @@ cd ../TIPP
 
 Part III: Phylogenetic (Abundance) Profiling with TIPP
 ------------------------------------------------------
-All prior analyses are on 16S -- which is not a single copy marker. TIPP can also be used for phylogenetic (abundance) profiling by using a set of marker genes. First, BLAST is used to identify whether a read is a match for a specific marker gene. If so, TIPP is used to classify the read. To run this analysis (in the future), create an output directory,
+All prior analyses are on 16S, which is not a single copy. TIPP can be used for phylogenetic (abundance) profiling by using a collection of marker genes as reference alignments and trees. First, BLAST is used to identify whether a read is a match for a specific marker gene. If so, TIPP is used to classify the read. To run this analysis (in the future), create an output directory,
 ```
 mkdir TIPP-COGS-95-SRR059420
 mkdir TIPP-COGS-95-SRR059420/markers
