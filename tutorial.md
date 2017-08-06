@@ -1,6 +1,6 @@
 SEPP and TIPP Tutorial
 ======================
-Let's analyze metagenomic datasets with the SEPP (SATe-Enabled Phylogenetic Placement) and TIPP (Taxonomic Identification and Phylogenetic Profiling) software programs! Recall that SEPP and TIPP require the following inputs:
+Let's analyze metagenomic datasets using SEPP (SATe-Enabled Phylogenetic Placement) and TIPP (Taxonomic Identification and Phylogenetic Profiling)! Recall that both SEPP and TIPP require the following inputs:
 + Set of query sequences, i.e., fragments/reads of unknown origin
 + Reference alignment and tree
 
