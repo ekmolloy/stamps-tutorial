@@ -144,7 +144,13 @@ GBEHU2E07D5RLY red ad
 
 Examining the [cladogram](images/rumino-cladogram.pdf), we can notice that GEQJ1S112HNELY was placed further away from the root than the GEQJ1S112HF5CU, which was placed sister to Saccharofermentans accetigenes -- however based on the [branch length](images/rumino-phylogeny.pdf) GEQJ1S112HF5CU may not necessarily have very high sequence identity to Saccharofermentans accetigenes. Branch lengths can also be very short, see placement of the query sequence GEQJ1SS112HN8VO on the Heliobacterium reference package [here](https://github.com/ekmolloy/stamps-tutorial/blob/master/images/helio-phylogeny.pdf).
 
-*Before moving on, use the [alignment file from SEPP](sepp/out/SEPP-RDP-RUMINO-READS_alignment.fasta.gz) to compare 1) the read GEQJ1S112HF5CU to the reference sequence Saccharofermentans_accetigenes_1 and 2) the read GEQJ1SS112HN8VO to the reference sequence Heliobacterium_modesticaldum_11.*
+*Before moving on, use the [alignment file from SEPP](sepp/out/SEPP-RDP-RUMINO-READS_alignment.fasta.gz) to compare the read GEQJ1S112HF5CU to the reference sequence Saccharofermentans_accetigenes_1.*
+```
+grep -A1 "GEQJ1S112HF5CU" SEPP-RDP-RUMINO-READS_alignment.fasta > SEPP-RDP-RUMINO-READS_GEQJ1S112HF5CU.fasta
+grep -A1 "Saccharofermentans_accetigenes_1" SEPP-RDP-RUMINO-READS_alignment.fasta >> SEPP-RDP-RUMINO-READS_GEQJ1S112HF5CU.fasta
+```
+And visualized using 
+*The read GEQJ1SS112HN8VO can be compared to the reference sequence Heliobacterium_modesticaldum_11 by examining the [alignment previously computed from TIPP](tipp/out/TIPP-RDP-CLOSTRIDIA-95-SRR1219742_alignment.fasta.gz)*
 
 **FINAL NOTE: Small reference alignments and trees are used in this tutorial to save time and make visualization easy to interpret; however, the benefits of using SEPP/TIPP are greatest when trees have a large evolutionary diameters -- which is more likely for trees are large. New tools for visualizing phylogenetic placements for large trees are on the way courtesy of [Mike Nute](https://publish.illinois.edu/michaelnute/)!**
 
