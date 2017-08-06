@@ -46,7 +46,7 @@ python /class/stamps-software/sepp/run_tipp.py \
     --tempdir tmp \
     --cpu 2
 ```
-This will take 5-6 minutes to finish. In the meantime, let's break down the command. The first five options specify files included in the reference package
+This will take 5-6 minutes to finish. In the meantime, let's break down the command. The first five options specify files included for the reference
 + `-a [`[`reference multiple sequence alignment -- fasta format`](refpkgs/RDP_2016_Clostridia.refpkg/pasta.fasta)`]`
 + `-t [`[`reference taxonomy -- newick format`](refpkgs/RDP_2016_Clostridia.refpkg/pasta.taxonomy)`]`
 + `-r [`[`reference tree model parameters -- RAxML info file`](refpkgs/RDP_2016_Clostridia.refpkg/RAxML_info.taxonomy)`]`
