@@ -8,7 +8,7 @@ Recall that both SEPP and TIPP require the following inputs:
 + Query sequences, i.e., fragments/reads of unknown origin
 + Reference tree and alignment
 
-Both of these inputs affect SEPP/TIPP's running time. For example, the number of sequences in the reference dataset and the alignment subset size determines how many profile HMMs must be built over the reverse alignment. Each query sequence in the sample must be aligned (and scored) to each of these profile HMMs. The [RDP 2016 Bacteria reference package](refpkgs/RDP_2016_Bacteria.refpkg) contains an alignment and phylogenetic tree on 11,988 sequences from the RDP database from selecting >1200 site-length, type isolates with quality "Good" and taxonomy from NCBI. To reduce the analysis time, this reference package was constrained to 707 sequences in the Clostridia class -- as the majority of reads (929 out of the first 2,500 reads) from the 16S sample (SRR1219742) were indentified as Clostridia using TIPP. **You will be classifying these 929 reads at the family, genus, and species levels using TIPP**
+Both of these inputs affect SEPP/TIPP's running time. For example, the number of sequences in the reference dataset and the alignment subset size determines how many profile HMMs must be built over the reference alignment. Each query sequence in the sample must be aligned (and scored) to each of these profile HMMs. The [RDP 2016 Bacteria reference package](refpkgs/RDP_2016_Bacteria.refpkg) contains an alignment and phylogenetic tree on 11,988 sequences from the RDP database by selecting >1200 site-length, type isolates with quality "Good" and taxonomy from NCBI. To reduce the analysis time, this reference package was constrained to 707 sequences in the Clostridia class -- as the majority of reads (929 out of the first 2,500 reads) from the 16S sample (SRR1219742) were indentified as Clostridia using TIPP. **Importantly, TIPP was run on both the reads and their reverse complement -- and the sequence with the lowest taxonomic classification used for this tutorial.** Now you will be classifying these reads at the family, genus, and species levels using TIPP!
 
 If you haven't done so already, ssh onto the MBL servers, clone this respository, and load the python 2.7.12 module.
 ```
@@ -16,7 +16,7 @@ git clone https://github.com/ekmolloy/stamps-tutorial.git
 module purge
 module load python/2.7.12-201701011205
 ```
-Then change into the tipp directory.
+Change into the tipp directory,
 ```
 cd stamps-tutorial/tipp
 ```
@@ -43,6 +43,23 @@ To see all of the [TIPP options](tipp-help.md), run
 ```
 python /class/stamps-software/sepp/run_tipp.py -h
 ```
+
+Now...
+```
+grep ",species," TIPP-RDP-CLOSTRIDIA-95-SRR1219742_classification.txt
+```
+...
+```
+python ../tools/restructure_tipp_classification.py \
+    -i TIPP-RDP-CLOSTRIDIA-95-SRR1219742_classification.txt \
+    -o FINAL-TIPP-RDP-CLOSTRIDIA-95-SRR1219742
+```
+Check out that 
+```
+cat TIPP-RDP-CLOSTRIDIA-95-SRR1219742_species.csv
+```
+and see that the majority of reads come from...
+
 
 Part II: Phylogenetic Placement using SEPP
 ------------------------------------------
