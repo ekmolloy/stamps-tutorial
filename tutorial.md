@@ -65,7 +65,7 @@ The next two options specify the support thresholds used by TIPP.
 
 TIPP was run with support thresholds of 0.95, which is the default. 
 
-The next two options specify the input and output
+The next two options specify the input and output.
 + `-f [`[`fragment file -- fasta`](samples/16S/SRR1219742_RDP_2016_Clostridia.fasta)`]`
 + `-o [prefix of output files]`
 
