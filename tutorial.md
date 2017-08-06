@@ -91,18 +91,21 @@ cat FINAL-TIPP-RDP-CLOSTRIDIA-95-SRR1219742_species.csv
 shows the vast majority of reads are unclassified (545 reads). Classified reads are largely Fastidiosipila sanguinis (213 reads) and Anaerovorax odorimutans (144 reads).
 
 
-*Before moving on, repeat this portion of the tutorial using a lower alignment/placement threshold (e.g., 0.50) and compare the number of reads classification at the species level.*
+*Before moving on, repeat this portion of the tutorial using a lower alignment/placement threshold (e.g., 0.50) and compare the number of reads classified at the species level.*
 
 **FINAL NOTE: In general, SEPP/TIPP should be run on reads and their reverse complement.**
 
 
 Part II: Phylogenetic Placement using SEPP
 ------------------------------------------
-Now let's take a closer look at our data using phylogenetic placement.
+Now let's take a closer look at our data using phylogenetic placement. Based on the TIPP classification using an alignment and placement support threshold of 0.50, five sequences were extracted from the Ruminococcaceae family.
++ GEQJ1S112HF5CU
++ GEQJ1S110GHR11
++ GEQJ1S110GEAZV 
++ GEQJ1S112HNELY  
++ GBEHU2E07D5RLY
 
-It is also important to note that the reference package has changed from Clostridia (class) to Ruminococcaceae (family). A smaller reference package was made on Ruminococcaceae (
-
-Change into the sepp directory
+Let's use SEPP to place these five query sequences into the RDP Bacteria reference package (55 sequences) for visualization. Change into the sepp directory
 ```
 cd ../sepp
 ```
@@ -119,10 +122,7 @@ python /class/stamps-software/sepp/run_sepp.py \
     --tempdir tmp \
     --cpu 2
 ```
-
-which will take a few seconds to finish. This command is nearly identical to that of TIPP except that the alignment and placement support thresholds are not specified. 
-
-In order to visualize the placements, the placement file (json) into a tree format (e.g., newick or xml) using guppy
+This command is nearly identical to that of TIPP except that the alignment and placement support thresholds are not specified. In order to visualize the placements, the placement file (json) into a tree format (e.g., newick or xml) using [guppy](https://matsen.github.io/pplacer/generated_rst/guppy.html)
 ```
 /class/stamps-software/sepp/.sepp/bundled-v4.3.2/guppy tog \
     --xml \
@@ -132,9 +132,7 @@ The tree file can then be downloaded onto your personal computer, for example, b
 ```
 scp [user-name]@[mbl-server-name]:~/stamps-tutorial/sepp/SEPP-RDP-RUMINO-READS_placement.tog.xml ~/Desktop
 ```
-You may use your favorite tree viewer to examine this data. If you don't have one, consider using
-[EvolView](http://www.evolgenius.info/evolview) to visualize the placement of query sequences in the reference tree with [colored branches](http://evolview.codeplex.com/wikipage?title=DatasetBranchColor) and [colored leaves](https://evolview.codeplex.com/wikipage?title=DatasetLeafColor). After the file is uploaded, check the 
-
+[EvolView](http://www.evolgenius.info/evolview) can be used to visualize the placement of query sequences in the reference tree with [colored branches](http://evolview.codeplex.com/wikipage?title=DatasetBranchColor) and [colored leaves](https://evolview.codeplex.com/wikipage?title=DatasetLeafColor). After the file is uploaded, hover over "Annatotation upload" and click on the buttons that are second (branch color) and third (leaf color) from the leaft and add the text
 ```
 GEQJ1S112HF5CU red ad   
 GEQJ1S110GHR11 red ad   
@@ -144,7 +142,9 @@ GBEHU2E07D5RLY red ad
 ```
 **Note: that the above spaces need to be tabs!**
 
-Examining these files...
+Examining these images, we can see that 
+
+
 
 *Before moving on, it is important to note that small reference alignments and trees were used in this tutorial to save time and make visualization easier to interpret; however, the benefits of using SEPP/TIPP are greatest when trees have a large evolutionary diameters -- which is more likely when trees are large. New tools for visualizing phylogenetic placement data from SEPP are on the way courtesy of [Mike Nute](https://publish.illinois.edu/michaelnute/)!*
 
@@ -152,7 +152,7 @@ Examining these files...
 
 Part III: Phylogenetic (Abundance) Profiling with TIPP
 ------------------------------------------------------
-Analyzing metagenomic datasets requires...
+Although we compute the 
 
 Change back into the tipp directory,
 ```
