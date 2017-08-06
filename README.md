@@ -4,7 +4,7 @@ Metagenome Analysis at [STAMPS 2017](https://stamps.mbl.edu/index.php/Schedule)
 Instructor: [Tandy Warnow](http://tandy.cs.illinois.edu)  
 Teaching Assistant: [Erin Molloy](http://emolloy2.web.engr.illinois.edu)   
 
-This is a tutorial for the **SEPP** (SATe-Enabled Phylogenetic Placement) and **TIPP** (Taxonomic Identification and Phylogenetic Profiling) software packages developed in the Warnow Lab by [Siavash Mirarab](http://eceweb.ucsd.edu/~smirarab/) and [Nam Nguyen](https://sites.google.com/a/eng.ucsd.edu/namphuon/home). The tutorial lecture slides can be found [here](http://tandy.cs.illinois.edu/stamps-warnow-v4.pdf). To begin the hands-on part of the tutorial, clone this repository in your home directory on the MBL servers,
+This is a tutorial for the **SEPP** (SATe-Enabled Phylogenetic Placement) and **TIPP** (Taxonomic Identification and Phylogenetic Profiling) software packages developed in the Warnow Lab by [Siavash Mirarab](http://eceweb.ucsd.edu/~smirarab/) and [Nam Nguyen](https://sites.google.com/a/eng.ucsd.edu/namphuon/home). Lecture slides can be referred to [here](http://tandy.cs.illinois.edu/stamps-warnow.pdf). To begin the hands-on part of the tutorial, clone this repository in your home directory on the MBL servers,
 ```
 git clone https://github.com/ekmolloy/stamps-tutorial.git
 ```
