@@ -172,8 +172,12 @@ python /class/stamps-software/sepp/run_abundance.py \
     --cpu 2
 ```
 You will notice several new options including
-+ -G [Use markers or cogs genes]
++ -G [whether markers (default) or cogs should be used]
 + -c [configuration file for TIPP]
 + -d [name of output directory]
 
-The [output](tipp/out/TIPP-95-COGS-SRR059420) shows the abundance of reads from each taxonomic rank, e.g., [genus](tipp/out/TIPP-95-COGS-SRR059420/abundance.genus.csv). The [markers folder](https://github.com/ekmolloy/stamps-tutorial/tree/master/tipp/out/TIPP-95-COGS-SRR059420/markers) contains the output from running TIPP on each of the markers.
+The [output](tipp/out/TIPP-95-COGS-SRR059420) shows the abundance of reads from each taxonomic rank, for example, the [genus-level abundance profile](tipp/out/TIPP-95-COGS-SRR059420/abundance.genus.csv) shows that the 95% of reads are classified as Bacteroides. The [markers folder](https://github.com/ekmolloy/stamps-tutorial/tree/master/tipp/out/TIPP-95-COGS-SRR059420/markers) contains the output from running TIPP on each of the markers.
+
+Thank you!
+----------
+Thank you for taking the time to do this tutorial, and please let us know if you have any more questions or comments!
