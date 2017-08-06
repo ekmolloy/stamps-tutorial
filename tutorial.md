@@ -128,11 +128,11 @@ Both the command and the output are nearly identical to TIPP; however, alignment
     --xml \
     SEPP-RDP-RUMINO-READS_placement.json
 ```
-The tree file can then be downloaded onto your personal computer, for example, by opening a new terminal and typing
+Download the xml file onto your personal computer, for example, by opening a new terminal and typing
 ```
 scp [user-name]@[mbl-server-name]:~/stamps-tutorial/sepp/SEPP-RDP-RUMINO-READS_placement.tog.xml ~/Desktop
 ```
-[EvolView](http://www.evolgenius.info/evolview) can be used to visualize the placement of query sequences in the reference tree with [colored branches](http://evolview.codeplex.com/wikipage?title=DatasetBranchColor) and [colored leaves](https://evolview.codeplex.com/wikipage?title=DatasetLeafColor). After the file is uploaded, hover over "Annatotation upload" and click on the buttons that are second (branch color) and third (leaf color) from the left and add the text
+and open the file with your favorite tree viewer. For example, [EvolView](http://www.evolgenius.info/evolview) can be used to visualize the placement of query sequences in the reference tree with [colored branches](http://evolview.codeplex.com/wikipage?title=DatasetBranchColor) and [colored leaves](https://evolview.codeplex.com/wikipage?title=DatasetLeafColor). After the file is uploaded, hover over "Annatotation upload" and click on the buttons that are second (branch color) and third (leaf color) from the left and add the text
 ```
 GEQJ1S112HF5CU red ad   
 GEQJ1S110GHR11 red ad   
