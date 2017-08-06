@@ -41,7 +41,7 @@ python /class/stamps-software/sepp/run_tipp.py \
 This will take 5-6 minutes to finish. In the meantime, let's breakdown this command.   
 
 The first five options specify files included in the reference package
-+ `-a` [reference multiple sequence alignment (fasta)](../refpkgs/RDP_2016_Clostridia.refpkg/pasta.fasta)
++ -a [reference multiple sequence alignment -- fasta](../refpkgs/RDP_2016_Clostridia.refpkg/pasta.fasta)
 + 
 + 
 + 
