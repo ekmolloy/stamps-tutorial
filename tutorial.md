@@ -1,11 +1,11 @@
 SEPP and TIPP Tutorial
 ======================
-SEPP and TIPP require the following inputs:
+Let's analyze metagenomic datasets with the SEPP (SATe-Enabled Phylogenetic Placement) and TIPP (Taxonomic Identification and Phylogenetic Profiling) software programs! Recall that SEPP and TIPP require the following inputs:
 + Set of query sequences, i.e., fragments/reads of unknown origin
 + Reference alignment and tree
 
 **Query sequences**   
-In this tutorial, we will analyze metagenomic datasets aquired through (16S) amplicon and whole shotgun sequencing. The 16S sample ([SRR1219742](https://www.ncbi.nlm.nih.gov/biosample/SAMN02725485) -- Lemur Vaginal Sample -- 454 GS FLX Titanium) comes from Yildirim et al., 2014 ([doi:10.1038/ismej.2014.90](https://www.ncbi.nlm.nih.gov/pubmed/25036926)). The shotgun sample ([SRR059421](https://www.ncbi.nlm.nih.gov/sra/SRX022983[accn]) -- Human Stool Sample -- Illumina Genome Analyzer II) comes from the [Human Microbiome Project](http://www.hmpdacc.org). All runs were downloaded from the NCBI database using this [fastq-dump command](tools/fastq_dump.sh). Additional pre-processing of reads could be done before using SEPP or TIPP.
+In this tutorial, we will analyze metagenomic datasets aquired through (16S) amplicon and whole shotgun sequencing. The 16S sample ([SRR1219742](https://www.ncbi.nlm.nih.gov/biosample/SAMN02725485) -- Lemur Vaginal Sample -- 454 GS FLX Titanium) comes from Yildirim et al., 2014. The shotgun sample ([SRR059421](https://www.ncbi.nlm.nih.gov/sra/SRX022983[accn]) -- Human Stool Sample -- Illumina Genome Analyzer II) comes from the [Human Microbiome Project](http://www.hmpdacc.org). All runs were downloaded from the NCBI database using this [fastq-dump command](tools/fastq_dump.sh). Additional pre-processing of reads could be done before using SEPP or TIPP.
 
 **Reference alignments and trees**   
 Phylogenetic placement (SEPP) and taxonomic identification (TIPP) of 16S samples can be peformed using an [alignment and tree](refpkgs/RDP_2016_Bacteria.refpkg) built on the 11,988 bacterial reference sequences from the [Ribosomal Database Project (RDP) database](https://rdp.cme.msu.edu/) -- selecting >1200 site-length, type isolates with quality "Good", and the NCBI taxonomy. 
@@ -214,3 +214,6 @@ Liu, B., T. Gibbons, M. Ghodsi, T. Treangen, and M. Pop. Accurate and fast estim
 Mirarab, S., N. Nguyen, and T. Warnow. (2012). SEPP: SATe-Enabled Phylogenetic Placement. *Proceedings of the 2012 Pacific Symposium on Biocomputing (PSB 2012)* 17:247-258. doi:[10.1142/9789814366496_0024](http://www.worldscientific.com/doi/abs/10.1142/9789814366496_0024)
 
 Nguyen, N., S. Mirarab, B. Liu, M. Pop, and T. Warnow (2014). TIPP:Taxonomic Identification and Phylogenetic Profiling. *Bioinformatics* 30(24):3548-3555. doi:[10.1093/bioinformatics/btu721](https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btu721)
+
+Yildirim, S., C. J. Yeoman, S. C. Janga, S. M. Thomas, M. Ho, and S. R. Leigh; Primate Microbiome Consortium, White BA4, Wilson BA2, Stumpf RM3. 2014. Primate vaginal microbiomes exhibit species specificity without universal Lactobacillus dominance. *The ISME Journal* 8(12):2431-44.
+([doi:10.1038/ismej.2014.90](http://www.nature.com/ismej/journal/v8/n12/full/ismej201490a.html))
