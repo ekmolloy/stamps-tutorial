@@ -14,7 +14,7 @@ load the python 2.7.12 module,
 module purge
 module load python/2.7.12-201701011205
 ```
-and follow the [*tutorial worksheet*](tutorial.md). This tutorial is set-up to run on the MBL servers. In the future, SEPP/TIPP can be downloaded [here](https://github.com/smirarab/sepp). 
+and follow the [**tutorial worksheet**](tutorial.md). This tutorial is set-up to run on the MBL servers. In the future, SEPP/TIPP can be downloaded [here](https://github.com/smirarab/sepp). 
 
 **Please flag us down when you have questions, we are happy to help!**
 
