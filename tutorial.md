@@ -4,11 +4,12 @@ In this tutorial, we will analyze biological datasets aquired through (16S) ampl
 
 Part I: Taxonomic Identification using TIPP
 -------------------------------------------
-Recall that both SEPP and TIPP require the following inputs:
-+ Query sequences, i.e., fragments/reads of unknown origin
-+ Reference tree and alignment
+The [RDP 2016 Bacteria reference package](refpkgs/RDP_2016_Bacteria.refpkg) can be used for phylogenetic placement (SEPP) or taxonomic identification (TIPP) of 16S samples. This reference package contains an alignment and tree that were built on the 11,988 sequences from the [RDP database](https://rdp.cme.msu.edu/) -- selecting >1200 site-length, type isolates with quality "Good" and taxonomy from NCBI. However, recall that SEPP and TIPP require the following inputs:
++ A reference alignment and tree, and
++ A set of query sequences, i.e., fragments/reads of unknown origin
+Both inputs affect the running time of SEPP and TIPP. For example, the number of sequences in the reference dataset and the alignment subset size determines how many profile HMMs must be built over the reference alignment. Each query sequence in the sample must be aligned (and scored) to each of these profile HMMs. 
 
-Both of these inputs affect SEPP/TIPP's running time. For example, the number of sequences in the reference dataset and the alignment subset size determines how many profile HMMs must be built over the reference alignment. Each query sequence in the sample must be aligned (and scored) to each of these profile HMMs. The [RDP 2016 Bacteria reference package](refpkgs/RDP_2016_Bacteria.refpkg) contains an alignment and phylogenetic tree on 11,988 sequences from the RDP database by selecting >1200 site-length, type isolates with quality "Good" and taxonomy from NCBI. To reduce the analysis time, this reference package was constrained to 707 sequences in the Clostridia class -- as the majority of reads (929 out of the first 2,500 reads) from the 16S sample (SRR1219742) were indentified as Clostridia using TIPP. **Importantly, TIPP was run on both the reads and their reverse complement -- and the sequence with the lowest taxonomic classification used for this tutorial.** Now you will be classifying these reads at the family, genus, and species levels using TIPP!
+To save time for this tutorial, TIPP was run on the first 2,500 sequences from the 16S sample (SRR1219742) and the majority of reads (929 out of the first 2,500 reads) were identified as Clostridia. The RDP Bacteria reference package was constrained to 707 sequences in the Clostridia class. **Now you will be classifying these reads at the family, genus, and species levels using TIPP!**
 
 If you haven't done so already, ssh onto the MBL servers, clone this respository, and load the python 2.7.12 module.
 ```
@@ -60,6 +61,8 @@ cat FINAL-TIPP-RDP-CLOSTRIDIA-95-SRR1219742_species.csv
 ```
 and see that the majority of reads come from...
 
+
+**Importantly, TIPP was run on both the reads and their reverse complement -- and the sequence with the lowest taxonomic classification used for this tutorial.**
 
 Part II: Phylogenetic Placement using SEPP
 ------------------------------------------
