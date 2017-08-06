@@ -204,3 +204,9 @@ And the [output](tipp/out/TIPP-95-COGS-SRR059420) includes the abundance profile
 Thank you!
 ----------
 Thank you for taking the time to do this tutorial, and please let us know if you have any more questions or comments!
+
+Citations
+---------
+Cole, J. R., Q. Wang, J. A. Fish, B. Chai, D. M. McGarrell, Y. Sun, C. T. Brown, A. Porras-Alfaro, C. R. Kuske, and J. M. Tiedje. 2014. Ribosomal Database Project: data and tools for high throughput rRNA analysis. *Nucl. Acids Res.* 42(Database issue):D633-D642; [doi:10.1093/nar/gkt1244](https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkt1244)
+
+Liu, B., T. Gibbons, M. Ghodsi, T. Treangen, and M. Pop. Accurate and fast estimation of taxonomic profiles from metagenomic shotgun sequences. 2011. *BMC Genomics* 12(Suppl 2):S4. [doi:10.1186/1471-2164-12-S2-S4](https://bmcgenomics.biomedcentral.com/articles/10.1186/1471-2164-12-S2-S4)
