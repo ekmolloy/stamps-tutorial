@@ -122,7 +122,7 @@ python /class/stamps-software/sepp/run_sepp.py \
     --tempdir tmp \
     --cpu 2
 ```
-Both the command and the output are nearly identical to TIPP except that the alignment and placement support thresholds are not specified and the classification file is not written. In order to visualize the placements, the placement file (json) into a tree format (e.g., newick or xml) using [guppy](https://matsen.github.io/pplacer/generated_rst/guppy.html)
+Both the command and the output are nearly identical to TIPP; however, alignment and placement support thresholds are not specified, and the classification file is not written. In order to visualize the placements, the placement file (json) into a tree format (e.g., newick or xml) using [guppy](https://matsen.github.io/pplacer/generated_rst/guppy.html)
 ```
 /class/stamps-software/sepp/.sepp/bundled-v4.3.2/guppy tog \
     --xml \
