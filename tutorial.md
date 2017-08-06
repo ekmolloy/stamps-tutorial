@@ -151,7 +151,7 @@ GBEHU2E07D5RLY red ad
 
 Examining the [cladogram](images/rumino-cladogram.pdf), we can notice that GEQJ1S112HNELY was placed closer to the root than the GEQJ1S112HF5CU, which was placed sister to Saccharofermentans acetigenes -- however based on the [branch length](images/rumino-phylogeny.pdf) GEQJ1S112HF5CU may not necessarily have very high sequence identity to Saccharofermentans accetigenes. Branch lengths can also be very short, see placement of the query sequence GEQJ1SS112HN8VO on the Heliobacterium reference package [here](https://github.com/ekmolloy/stamps-tutorial/blob/master/images/helio-phylogeny.pdf).
 
-Use the [alignment file from SEPP](sepp/out/SEPP-RDP-RUMINO-READS_alignment.fasta) to compare the read GEQJ1S112HF5CU to the reference sequence Saccharofermentans_acetigenes_1 by visualizing the multiple sequence alignment. Extract the two sequences into a new fasta file
+Use the [alignment file from SEPP](sepp/out/SEPP-RDP-RUMINO-READS_alignment.fasta) to compare the read GEQJ1S112HF5CU to the reference sequence Saccharofermentans_acetigenes_1. Extract the two sequences into a new fasta file
 ```
 grep -A1 "GEQJ1S112HF5CU" SEPP-RDP-RUMINO-READS_alignment.fasta > SEPP-RDP-RUMINO-READS_subset.fasta
 grep -A1 "Saccharofermentans_acetigenes_1" SEPP-RDP-RUMINO-READS_alignment.fasta >> SEPP-RDP-RUMINO-READS_subset.fasta
@@ -160,7 +160,11 @@ and download it onto your personal computer, e.g., by opening a new terminal and
 ```
 scp [user-name]@[mbl-server-name]:~/stamps-tutorial/sepp/SEPP-RDP-RUMINO-READS_subset.fasta ~/Desktop
 ```
-Go to [http://msa.biojs.net](http://msa.biojs.net), scroll down and click "Use It" followed by the little arrow icon. Then click "Import" followed by "From file".
+[MSAViewer](http://msa.biojs.net) can eb used to visualize the multiple sequence alignment. Scroll down and click he little arrow icon under "Use It". Then click "Import" followed by "From file".
+
+*Before moving on, use the [cladogram](images/rumino-cladogram.pdf) to extract other reference sequences near GEQJ1S112HNELY (e.g., Ercella_succinigenes_1 or Fastidiosipila_sanguinis_1) and visualize the alignment. Given this multiple sequence alignment, do you think it makes sense that TIPP (0.95 support threshold) classified GEQJ1S112HNEL as Ruminococcaceae but was unable to clasify at the genus or species level?
+
+*
 
 **NOTE: Small reference alignments and trees are used in this tutorial to save time and make visualization easier; however, the benefits of using SEPP/TIPP are greatest when trees have a large evolutionary diameters -- which is more likely for trees are large. New tools for visualizing phylogenetic placements for large trees are on the way courtesy of [Mike Nute](https://publish.illinois.edu/michaelnute/)!**
 
