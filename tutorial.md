@@ -162,7 +162,7 @@ scp [user-name]@[mbl-server-name]:~/stamps-tutorial/sepp/SEPP-RDP-RUMINO-READS_s
 ```
 [MSAViewer](http://msa.biojs.net) can be used to visualize the multiple sequence alignment. Scroll down and click he little arrow icon under "Use It". Then click "Import" followed by "From file".
 
-*Before moving on, use the [cladogram](images/rumino-cladogram.pdf) to identify other reference sequences near GEQJ1S112HNELY (e.g., Ercella_succinigenes_1 or Fastidiosipila_sanguinis_1). Visualize the multiple sequence alignment on all of these sequences. What do you think about TIPP (using 0.95 support threshold) classifing GEQJ1S112HNEL as Ruminococcaceae family but was unable to clasify at the genus or species level? What do you think about TIPP (using 0.50 support threshold) classifying GEQJ1S112HNEL as ?*
+*Before moving on, use the [cladogram](images/rumino-cladogram.pdf) to identify other reference sequences near GEQJ1S112HNELY (e.g., Ercella_succinigenes_1 or Fastidiosipila_sanguinis_1). Visualize the multiple sequence alignment on all of these sequences. What do you think about TIPP (using 0.95 support threshold) classifing GEQJ1S112HNEL as Ruminococcaceae family but Unclassified at the genus or species level? What do you think about TIPP (using 0.50 support threshold) classifying GEQJ1S112HNEL as ?*
 
 **NOTE: Small reference alignments and trees are used in this tutorial to save time and make visualization easier; however, the benefits of using SEPP/TIPP are greatest when trees have a large evolutionary diameters -- which is more likely for trees are large. New tools for visualizing phylogenetic placements for large trees are on the way courtesy of [Mike Nute](https://publish.illinois.edu/michaelnute/)!**
 
