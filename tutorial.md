@@ -1,6 +1,10 @@
 SEPP/TIPP Tutorial
 ==================
-In this tutorial, we will analyze biological datasets aquired through (16S) amplicon and whole shotgun sequencing using TIPP and SEPP. The 16S (454 GS FLX Titanium) sample ([SRR1219742](https://www.ncbi.nlm.nih.gov/biosample/SAMN02725485) -- Lemur Vaginal Sample) comes from Yildirim et al., 2014 ([doi:10.1038/ismej.2014.90](https://www.ncbi.nlm.nih.gov/pubmed/25036926)). The shotgun (Illumina Genome Analyzer II) sample ([SRR059421](https://www.ncbi.nlm.nih.gov/sra/SRX022983[accn]) -- Human Stool Sample) comes from the [Human Microbiome Project](http://www.hmpdacc.org). All runs were downloaded from the NCBI database using this [fastq-dump command](tools/fastq_dump.sh). Additional pre-processing of reads could be done before using SEPP or TIPP.
+In this tutorial, we will analyze biological datasets aquired through (16S) amplicon and whole shotgun sequencing using **TIPP** and **SEPP**.
+
+Samples
+-------
+The 16S (454 GS FLX Titanium) sample ([SRR1219742](https://www.ncbi.nlm.nih.gov/biosample/SAMN02725485) -- Lemur Vaginal Sample) comes from Yildirim et al., 2014 ([doi:10.1038/ismej.2014.90](https://www.ncbi.nlm.nih.gov/pubmed/25036926)). The shotgun (Illumina Genome Analyzer II) sample ([SRR059421](https://www.ncbi.nlm.nih.gov/sra/SRX022983[accn]) -- Human Stool Sample) comes from the [Human Microbiome Project](http://www.hmpdacc.org). All runs were downloaded from the NCBI database using this [fastq-dump command](tools/fastq_dump.sh). Additional pre-processing of reads could be done before using SEPP or TIPP.
 
 Part I: Taxonomic Identification using TIPP
 -------------------------------------------
@@ -14,9 +18,12 @@ The size of the reference package and the number of query sequences affect the r
 
 Running TIPP on the first 2,500 sequences from the 16S sample (SRR1219742) showed that the majority of classified reads (929 reads) were identified as Clostridia. For this tutorial, the RDP Bacteria reference package was constrained to 707 sequences in the Clostridia class. You will be classifying these reads at the family, genus, and species levels using TIPP!
 
-If you haven't done so already, ssh onto the MBL servers, clone this respository, and load the python 2.7.12 module.
+To begin, ssh onto the MBL servers, clone this respository,
 ```
 git clone https://github.com/ekmolloy/stamps-tutorial.git
+```
+and load the python 2.7.12 module
+```
 module purge
 module load python/2.7.12-201701011205
 ```
