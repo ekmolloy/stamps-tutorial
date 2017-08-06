@@ -139,7 +139,7 @@ Download the xml file onto your personal computer, e.g., by opening a new termin
 ```
 scp [user-name]@[mbl-server-name]:~/stamps-tutorial/sepp/SEPP-RDP-RUMINO-READS_placement.tog.xml ~/Desktop
 ```
-and open the file with your favorite tree viewer. For example, [EvolView](http://www.evolgenius.info/evolview) can be used to visualize the placement of query sequences in the reference tree with [colored branches](http://evolview.codeplex.com/wikipage?title=DatasetBranchColor) and [colored leaves](https://evolview.codeplex.com/wikipage?title=DatasetLeafColor). After the file is uploaded, hover over "Annatotation upload" and click on the buttons that are second (branch color) and third (leaf color) from the left and add the text
+and open the file with your favorite tree viewer. [EvolView](http://www.evolgenius.info/evolview) can be used to visualize the placement of query sequences in the reference tree with [colored branches](http://evolview.codeplex.com/wikipage?title=DatasetBranchColor) and [colored leaves](https://evolview.codeplex.com/wikipage?title=DatasetLeafColor). After the uploading the file, hover over "Annatotation upload", click on the buttons that are second (branch color) and third (leaf color) from the left, and add the text
 ```
 GEQJ1S112HF5CU red ad   
 GEQJ1S110GHR11 red ad   
