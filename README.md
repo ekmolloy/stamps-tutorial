@@ -4,7 +4,7 @@ Metagenome Analysis at [STAMPS 2017](https://stamps.mbl.edu/index.php/Schedule)
 Instructor: [Tandy Warnow](http://tandy.cs.illinois.edu)  
 Teaching Assistant: [Erin Molloy](http://emolloy2.web.engr.illinois.edu)   
 
-Learn how to analyze metagenomic datasets with the **SEPP** (SATe-Enabled Phylogenetic Placement) and **TIPP** (Taxonomic Identification and Phylogenetic Profiling) software programs developed in the Warnow Lab!
+Learn how to analyze metagenomic datasets with the **SEPP** (SATe-Enabled Phylogenetic Placement) and **TIPP** (Taxonomic Identification and Phylogenetic Profiling) software programs!
 
 This tutorial includes
 + [Lecture slides](http://tandy.cs.illinois.edu/stamps-warnow.pdf)
