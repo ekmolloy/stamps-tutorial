@@ -70,7 +70,7 @@ To see all of the [TIPP options](tipp-help.md), run
 ```
 python /class/stamps-software/sepp/run_tipp.py -h
 ```
-By now TIPP may have finished and written the following five files
+By now TIPP may have finished and written the following files
 + [classification information -- csv](tipp/out/TIPP-RDP-CLOSTRIDIA-95-SRR1219742_classification.txt)
 + [phylogenetic placement information -- json](tipp/out/TIPP-RDP-CLOSTRIDIA-95-SRR1219742_placement.json)
 + [alignment on both the reference and query sequences -- fasta](tipp/out/TIPP-RDP-CLOSTRIDIA-95-SRR1219742_alignment.fasta.gz)
