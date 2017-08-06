@@ -9,7 +9,7 @@ This is a tutorial for the **SEPP** and **TIPP** software packages developed in 
 git clone https://github.com/ekmolloy/stamps-tutorial.git
 ```
 
-load the python module,
+load the python 2.7.12 module,
 ```
 module purge
 module load python/2.7.12-201701011205
