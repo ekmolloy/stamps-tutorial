@@ -104,6 +104,7 @@ Now let's take a closer look at some select reads using phylogenetic placement. 
 + GEQJ1S110GEAZV 
 + GEQJ1S112HNELY  
 + GBEHU2E07D5RLY
+
 You can examine the support at which these reads are classfied at the family level by using grep, e.g.,
 ```
 grep "GEQJ1S112HF5CU" TIPP-RDP-CLOSTRIDIA-95-SRR1219742_classification.txt 
