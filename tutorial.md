@@ -127,7 +127,9 @@ python /class/stamps-software/sepp/run_sepp.py \
     --tempdir tmp \
     --cpu 2
 ```
-Both the command and the output are nearly identical to TIPP; however, alignment and placement support thresholds are not specified, and the classification file is not written. In order to visualize the placements, the placement file ([json](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0031009)) into a tree format (e.g., newick or xml) using [guppy](https://matsen.github.io/pplacer/generated_rst/guppy.html)
+Both the command and the output are nearly identical to TIPP; however, alignment and placement support thresholds are not specified, and the classification file is not written. Use the [placement file from SEPP](sepp/out/SEPP-RDP-RUMINO-READS_placement.json) to rank the five reads by the branch length connecting the read to the Ruminococcaceae tree. Now we will visualize these placements. You may need read more about the json file format [here](https://matsen.github.io/pplacer/generated_rst/pplacer.html) (search json) or [here](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0031009).
+
+To visualize the placements, the placement file needs to be converted into a tree format (e.g., newick or xml) using [guppy](https://matsen.github.io/pplacer/generated_rst/guppy.html)
 ```
 /class/stamps-software/sepp/.sepp/bundled-v4.3.2/guppy tog \
     --xml \
@@ -158,9 +160,7 @@ by visualizing the multiple sequence alignment. Download the fasta file onto you
 ```
 scp [user-name]@[mbl-server-name]:~/stamps-tutorial/sepp/SEPP-RDP-RUMINO-READS_subset.fasta ~/Desktop
 ```
-Then go to [http://msa.biojs.net](http://msa.biojs.net), click "Use It" followed by the little arrow icon, click "Import" followed by "From file", select file.
-
-*Before moving on, consider comparing the read GEQJ1SS112HN8VO to the reference sequence Heliobacterium_modesticaldum_11 by examining the [alignment previously computed from TIPP](tipp/out/TIPP-RDP-CLOSTRIDIA-95-SRR1219742_alignment.fasta.gz)*
+Then go to [http://msa.biojs.net](http://msa.biojs.net), click "Use It" followed by the little arrow icon, click "Import" followed by "From file".
 
 **FINAL NOTE: Small reference alignments and trees are used in this tutorial to save time and make visualization easier; however, the benefits of using SEPP/TIPP are greatest when trees have a large evolutionary diameters -- which is more likely for trees are large. New tools for visualizing phylogenetic placements for large trees are on the way courtesy of [Mike Nute](https://publish.illinois.edu/michaelnute/)!**
 
