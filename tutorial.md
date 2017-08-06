@@ -144,15 +144,13 @@ GBEHU2E07D5RLY red ad
 
 Examining the [cladogram](images/rumino-cladogram.pdf), we can notice that GEQJ1S112HNELY was placed further away from the root than the GEQJ1S112HF5CU, which was placed sister to Saccharofermentans accetigenes -- however based on the [branch](images/rumino-phylogeny.pdf) GEQJ1S112HF5CU may not have high sequence identity. Branch lengths can also be short, see placement of the query sequence GEQJ1SS112HN8VO on the Heliobacterium reference package [here](https://github.com/ekmolloy/stamps-tutorial/blob/master/images/helio-phylogeny.pdf).
 
-Before moving on, use the alignment file from SEPP to compare 1) the read GEQJ1S112HF5CU to the reference sequence Saccharofermentans_accetigenes_1 and 2) the read GEQJ1SS112HN8VO to Heliobacterium_modesticaldum_11.
+*Before moving on, use the alignment file from SEPP to compare 1) the read GEQJ1S112HF5CU to the reference sequence Saccharofermentans_accetigenes_1 and 2) the read GEQJ1SS112HN8VO to Heliobacterium_modesticaldum_11.*
 
-**FINAL NOTE: Small reference alignments and trees are used in this tutorial to save time and make visualization easy to interpret; however, the benefits of using SEPP/TIPP are greatest when trees have a large evolutionary diameters -- which is more likely when trees are large. New tools for visualizing phylogenetic placement data from SEPP are on the way courtesy of [Mike Nute](https://publish.illinois.edu/michaelnute/)!**
+**FINAL NOTE: Small reference alignments and trees are used in this tutorial to save time and make visualization easy to interpret; however, the benefits of using SEPP/TIPP are greatest when trees have a large evolutionary diameters -- which is more likely when trees are large. New tools for visualizing phylogenetic placements for large trees are on the way courtesy of [Mike Nute](https://publish.illinois.edu/michaelnute/)!**
 
 Part III: Phylogenetic (Abundance) Profiling with TIPP
 ------------------------------------------------------
-Although we compute the 
-
-Change back into the tipp directory,
+All prior analyses are on 16S -- which is not a single copy marker. TIPP can also be used for phylogenetic (abundance profiling) by using a set of marker genes. First, BLAST is used to identify whether a read is a match for a specific marker gene. If so, TIPP is used to classify the read. To run this analysis (in the future), change back into the tipp directory,
 ```
 cd ../tipp
 ```
@@ -173,4 +171,9 @@ python /class/stamps-software/sepp/run_abundance.py \
     --tempdir tmp \
     --cpu 2
 ```
-break down command and view the output...
+You will notice several new options including
++ -G [Use markers or cogs genes]
++ -c [configuration file for TIPP]
++ -d [name of output directory]
+
+The [output](tipp/out/TIPP-95-COGS-SRR059420) shows the abundance of reads from each taxonomic rank, e.g., [genus](tipp/out/TIPP-95-COGS-SRR059420/abundance.genus.csv). The [markers folder](https://github.com/ekmolloy/stamps-tutorial/tree/master/tipp/out/TIPP-95-COGS-SRR059420/markers) contains the output from running TIPP on each of the markers.
