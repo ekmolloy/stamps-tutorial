@@ -99,10 +99,10 @@ scp [username]@[mblservers]:~/stamps-tutorial/sepp/SEPP-RDP-RUMINO-READS_placeme
 
 ```
 GEQJ1S112HF5CU red ad   
-GEQJ1S110GHR11  red ad   
-GEQJ1S110GEAZV  red ad   
-GEQJ1S112HNELY  red ad   
-GBEHU2E07D5RLY  red ad   
+GEQJ1S110GHR11 red ad   
+GEQJ1S110GEAZV red ad   
+GEQJ1S112HNELY red ad   
+GBEHU2E07D5RLY red ad   
 ```
 Note: that the above spaces are actually tabs!
 
