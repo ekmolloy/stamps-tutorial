@@ -137,7 +137,7 @@ Now we will visualize these placements by converting the placement file into a t
 ```
 Download the xml file onto your personal computer, e.g., by opening a new terminal and typing
 ```
-scp [user-name]@[mbl-server-name]:~/stamps-tutorial/sepp/SEPP-RDP-RUMINO-READS_placement.tog.xml ~/Desktop
+scp [user-name]@class.mbl.edu:~/stamps-tutorial/sepp/SEPP-RDP-RUMINO-READS_placement.tog.xml ~/Desktop
 ```
 and open the file with your favorite tree viewer. [EvolView](http://www.evolgenius.info/evolview) can be used to visualize the placement of query sequences in the reference tree with [colored branches](http://evolview.codeplex.com/wikipage?title=DatasetBranchColor) and [colored leaves](https://evolview.codeplex.com/wikipage?title=DatasetLeafColor). After the uploading the file, hover over "Annatotation upload", click on the buttons that are second (branch color) and third (leaf color) from the left, and add the text
 ```
@@ -158,7 +158,7 @@ grep -A1 "Saccharofermentans_acetigenes_1" SEPP-RDP-RUMINO-READS_alignment.fasta
 ```
 and download it onto your personal computer, e.g., by opening a new terminal and typing
 ```
-scp [user-name]@[mbl-server-name]:~/stamps-tutorial/sepp/SEPP-RDP-RUMINO-READS_subset.fasta ~/Desktop
+scp [user-name]@class.mbl.edu:~/stamps-tutorial/sepp/SEPP-RDP-RUMINO-READS_subset.fasta ~/Desktop
 ```
 [MSAViewer](http://msa.biojs.net) can be used to visualize the multiple sequence alignment. Scroll down and click he little arrow icon under "Use It". Then click "Import" followed by "From file".
 
