@@ -1,5 +1,5 @@
-Metagenome Analysis at [STAMPS 2017](https://stamps.mbl.edu/index.php/Schedule)
-===============================================================================
+Metagenomic Analysis using Phylogeny-Aware Profiles at [STAMPS 2017](https://stamps.mbl.edu/index.php/Schedule)
+===============================================================================================================
 
 Instructor: [Tandy Warnow](http://tandy.cs.illinois.edu)  
 Teaching Assistant: [Erin Molloy](http://emolloy2.web.engr.illinois.edu)   
