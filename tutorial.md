@@ -41,11 +41,11 @@ python /class/stamps-software/sepp/run_tipp.py \
 This will take 5-6 minutes to finish. In the meantime, let's breakdown this command.   
 
 The first five options specify files included in the reference package
-+ -a [reference multiple sequence alignment -- fasta](../refpkgs/RDP_2016_Clostridia.refpkg/pasta.fasta)
-+ 
-+ 
-+ 
-+ 
++ -a [reference multiple sequence alignment -- fasta format](refpkgs/RDP_2016_Clostridia.refpkg/pasta.fasta)
++ -t [reference taxonomy -- newick format](refpkgs/RDP_2016_Clostridia.refpkg/pasta.taxonomy)
++ -r [reference tree model parameters -- RAxML info file](refpkgs/RDP_2016_Clostridia.refpkg/RAxML_info.taxonomy)
++ -tx [csv file mapping taxonomic id to taxonomy information](refpkgs/RDP_2016_Clostridia.refpkg/taxonomy.table)
++ -txm [csv mapping sequence names to taxonomic ids](refpkgs/RDP_2016_Clostridia.refpkg/species.mapping)
 
 
 
