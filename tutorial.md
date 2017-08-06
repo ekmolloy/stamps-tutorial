@@ -91,9 +91,9 @@ cat FINAL-TIPP-RDP-CLOSTRIDIA-95-SRR1219742_species.csv
 shows the vast majority of reads are unclassified (545 reads). Classified reads are largely Fastidiosipila sanguinis (213 reads) and Anaerovorax odorimutans (144 reads).
 
 
-**Before moving on, repeat this portion of the tutorial using a lower alignment/placement threshold (e.g., 0.50) and compare the number of reads classification at the species level.**
+*Before moving on, repeat this portion of the tutorial using a lower alignment/placement threshold (e.g., 0.50) and compare the number of reads classification at the species level.*
 
-**FINAL NOTE: In general, TIPP should be run on reads and their reverse complement.**
+**FINAL NOTE: In general, SEPP/TIPP should be run on reads and their reverse complement.**
 
 
 Part II: Phylogenetic Placement using SEPP
@@ -146,8 +146,9 @@ GBEHU2E07D5RLY red ad
 
 Examining these files...
 
-**Before moving on, it is important to note that small reference alignments and trees were used in this tutorial to save time and make visualization easier to interpret; however, the benefits of using SEPP/TIPP are greatest when trees have a large evolutionary diameters -- which is more likely when trees are large. New tools for visualizing phylogenetic placement data from SEPP are on the way courtesy of [Mike Nute](https://publish.illinois.edu/michaelnute/)!**
+*Before moving on, it is important to note that small reference alignments and trees were used in this tutorial to save time and make visualization easier to interpret; however, the benefits of using SEPP/TIPP are greatest when trees have a large evolutionary diameters -- which is more likely when trees are large. New tools for visualizing phylogenetic placement data from SEPP are on the way courtesy of [Mike Nute](https://publish.illinois.edu/michaelnute/)!*
 
+**FINAL NOTE: In general, SEPP/TIPP should be run on reads and their reverse complement.**
 
 Part III: Phylogenetic (Abundance) Profiling with TIPP
 ------------------------------------------------------
