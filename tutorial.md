@@ -98,14 +98,14 @@ shows the vast majority of reads are unclassified (545 reads). Classified reads 
 
 Part II: Phylogenetic Placement using SEPP
 ------------------------------------------
-Now let's take a closer look at our data using phylogenetic placement. Based on the TIPP classification using an alignment and placement support threshold of 0.50, five sequences were extracted from the Ruminococcaceae family.
+Now let's take a closer look at some select reads using phylogenetic placement. Based on the TIPP classification (using an alignment/placement support threshold of 0.50), many sequences were identified as the Ruminococcaceae family including
 + GEQJ1S112HF5CU
 + GEQJ1S110GHR11
 + GEQJ1S110GEAZV 
 + GEQJ1S112HNELY  
 + GBEHU2E07D5RLY
 
-Let's use SEPP to place these five query sequences into the RDP Bacteria reference package (55 sequences) for visualization. Change into the sepp directory
+SEPP can be used to place these five query sequences into the RDP Bacteria reference package constrained to the Ruminococcaceae family (55 sequences) for visualization purposes. Change into the sepp directory
 ```
 cd ../sepp
 ```
