@@ -22,6 +22,6 @@ This tutorial has been set-up to run on the MBL servers. To use SEPP and TIPP in
 
 Citations
 ---------
-Mirarab, Nguyen, and Warnow. (2012). SEPP: SATe-Enabled Phylogenetic Placement. *Proceedings of the 2012 Pacific Symposium on Biocomputing (PSB 2012)* 17:247-258. doi:[10.1093/bioinformatics/btu721](https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btu721)
+Mirarab, Nguyen, and Warnow. (2012). SEPP: SATe-Enabled Phylogenetic Placement. *Proceedings of the 2012 Pacific Symposium on Biocomputing (PSB 2012)* 17:247-258. doi:[10.1142/9789814366496_0024](http://www.worldscientific.com/doi/abs/10.1142/9789814366496_0024)
 
-Nguyen, Mirarab, Liu, Pop, and Warnow (2014). TIPP:Taxonomic Identification and Phylogenetic Profiling. *Bioinformatics* 30(24):3548-3555. doi:[10.1142/9789814366496_0024](http://www.worldscientific.com/doi/abs/10.1142/9789814366496_0024)
+Nguyen, Mirarab, Liu, Pop, and Warnow (2014). TIPP:Taxonomic Identification and Phylogenetic Profiling. *Bioinformatics* 30(24):3548-3555. doi:[10.1093/bioinformatics/btu721](https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btu721)
