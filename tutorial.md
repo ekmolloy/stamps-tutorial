@@ -4,10 +4,10 @@ SEPP and TIPP require the following inputs:
 + A set of query sequences, i.e., fragments/reads of unknown origin, and
 + A reference alignment and tree
 
-**Query sequences**
+**Query sequences**   
 In this tutorial, we will analyze metagenomic datasets aquired through (16S) amplicon and whole shotgun sequencing using **TIPP** and **SEPP**. The 16S (454 GS FLX Titanium) sample ([SRR1219742](https://www.ncbi.nlm.nih.gov/biosample/SAMN02725485) -- Lemur Vaginal Sample) comes from Yildirim et al., 2014 ([doi:10.1038/ismej.2014.90](https://www.ncbi.nlm.nih.gov/pubmed/25036926)). The shotgun (Illumina Genome Analyzer II) sample ([SRR059421](https://www.ncbi.nlm.nih.gov/sra/SRX022983[accn]) -- Human Stool Sample) comes from the [Human Microbiome Project](http://www.hmpdacc.org). All runs were downloaded from the NCBI database using this [fastq-dump command](tools/fastq_dump.sh). Additional pre-processing of reads could be done before using SEPP or TIPP.
 
-**Reference alignments and trees**
+**Reference alignments and trees**   
 The [RDP 2016 Bacteria reference package](refpkgs/RDP_2016_Bacteria.refpkg) is used for phylogenetic placement (SEPP) and taxonomic identification (TIPP) of 16S samples. This reference package contains an alignment and tree that were built on the 11,988 sequences from the [RDP database](https://rdp.cme.msu.edu/) -- selecting >1200 site-length, type isolates with quality "Good", and the NCBI taxonomy. 
 
 The size of the reference package and the number of query sequences affect the running time of SEPP and TIPP. For example, the number of sequences in the reference dataset and the alignment subset size determine how many profile HMMs must be built over the reference alignment. Then each query sequence in the sample must be aligned (and scored) to each of these profile HMMs.
