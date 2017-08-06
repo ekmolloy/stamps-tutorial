@@ -2,7 +2,7 @@ SEPP and TIPP Tutorial
 ======================
 Let's analyze metagenomic datasets using SEPP (SATe-Enabled Phylogenetic Placement) and TIPP (Taxonomic Identification and Phylogenetic Profiling)! Recall that both SEPP and TIPP require the following inputs:
 + Set of query sequences, i.e., fragments/reads of unknown origin
-+ Reference alignment and tree
++ Reference alignment and tree or taxonomy
 
 **Query sequences**   
 In this tutorial, we will analyze (subsets of) metagenomic datasets aquired through (16S) amplicon and whole shotgun sequencing. The 16S sample ([SRR1219742](https://www.ncbi.nlm.nih.gov/biosample/SAMN02725485) -- Lemur Vaginal Sample -- 454 GS FLX Titanium) comes from Yildirim et al., 2014. The shotgun sample ([SRR059421](https://www.ncbi.nlm.nih.gov/sra/SRX022983[accn]) -- Human Stool Sample -- Illumina Genome Analyzer II) comes from the [Human Microbiome Project](http://www.hmpdacc.org). All runs were downloaded from the NCBI database using this [fastq-dump command](tools/fastq_dump.sh).
