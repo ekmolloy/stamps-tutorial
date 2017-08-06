@@ -75,25 +75,25 @@ By now TIPP may have finished and written the following five files
 + [phylogenetic placement information -- json](tipp/out/TIPP-RDP-CLOSTRIDIA-95-SRR1219742_placement.json)
 + [alignment on both the reference and query sequences -- fasta](tipp/out/TIPP-RDP-CLOSTRIDIA-95-SRR1219742_alignment.fasta.gz)
 
-The classification file shows the support of classifying sequences at each taxonomic rank. Check out the support for species-level classification
+The classification file shows the support of classifying sequences at each taxonomic rank. Check out the support for each read classified at the species level
 ```
 grep ",species," TIPP-RDP-CLOSTRIDIA-95-SRR1219742_classification.txt
 ```
-The number of reads classified at each taxonomic rank can be computed using
+Computing the number of reads classified at each taxonomic rank
 ```
 python ../tools/restructure_tipp_classification.py \
     -i TIPP-RDP-CLOSTRIDIA-95-SRR1219742_classification.txt \
     -o FINAL-TIPP-RDP-CLOSTRIDIA-95-SRR1219742
 ```
-and examining the read count for species level classification
+and examing the read count for species-level classification
 ```
 cat FINAL-TIPP-RDP-CLOSTRIDIA-95-SRR1219742_species.csv
 ```
-shows the vast majority of reads are unclassified (545 reads). Classified reads are largely Fastidiosipila sanguinis (213 reads) and Anaerovorax odorimutans (144 reads).
+shows the vast majority of reads are unclassified (545 reads). Classified reads are largely Fastidiosipila sanguinis (213 reads) and Anaerovorax odorimutans (144 reads). What do read counts look like at the genus and family level? 
 
-*Before moving on, repeat this portion of the tutorial using a lower alignment/placement threshold (e.g., 0.50) and compare the number of reads classified at the species level.*
+*Before moving on, repeat this portion of the tutorial running TIPP with a lower alignment/placement threshold (e.g., 0.50), and compare the number of reads unclassified at the species level.*
 
-**FINAL NOTE: In general, SEPP/TIPP should be run on reads and their reverse complement.**
+**FINAL NOTE: In general, SEPP/TIPP should be run on reads and their reverse complement. This has already been done for the 16S data used in this tutorial.**
 
 
 Part II: Phylogenetic Placement using SEPP
