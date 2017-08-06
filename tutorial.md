@@ -110,7 +110,7 @@ You can examine the support at which these reads are classfied at the family lev
 grep "GEQJ1S112HF5CU" TIPP-RDP-CLOSTRIDIA-95-SRR1219742_classification.txt 
 ```
 
-SEPP can be used to place these five query sequences into the RDP Bacteria reference package constrained to the Ruminococcaceae family (55 sequences) for visualization purposes. Change into the sepp directory
+SEPP can be used to place these five query sequences into the RDP Bacteria reference package; however, we will use SEPP with a RDP Bacteria reference package constrained to the Ruminococcaceae family (55 sequences) for visualization purposes. Change into the sepp directory
 ```
 cd ../sepp
 ```
