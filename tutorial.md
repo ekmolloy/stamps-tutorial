@@ -122,7 +122,7 @@ python /class/stamps-software/sepp/run_sepp.py \
     --tempdir tmp \
     --cpu 2
 ```
-This command is nearly identical to that of TIPP except that the alignment and placement support thresholds are not specified. In order to visualize the placements, the placement file (json) into a tree format (e.g., newick or xml) using [guppy](https://matsen.github.io/pplacer/generated_rst/guppy.html)
+Both the command and the output are nearly identical to TIPP except that the alignment and placement support thresholds are not specified and the classification file is not written. In order to visualize the placements, the placement file (json) into a tree format (e.g., newick or xml) using [guppy](https://matsen.github.io/pplacer/generated_rst/guppy.html)
 ```
 /class/stamps-software/sepp/.sepp/bundled-v4.3.2/guppy tog \
     --xml \
@@ -142,13 +142,11 @@ GBEHU2E07D5RLY red ad
 ```
 **Note: that the above spaces need to be tabs!**
 
-Examining these images, we can see that 
+Examining the [cladogram](images/rumino-cladogram.pdf), we can notice that GEQJ1S112HNELY was placed further away from the root than the GEQJ1S112HF5CU, which was placed sister to Saccharofermentans accetigenes -- however based on the [branch](images/rumino-phylogeny.pdf) GEQJ1S112HF5CU may not have high sequence identity. Branch lengths can also be short, see placement of the query sequence GEQJ1SS112HN8VO on the Heliobacterium reference package [here](https://github.com/ekmolloy/stamps-tutorial/blob/master/images/helio-phylogeny.pdf).
 
+Before moving on, use the alignment file from SEPP to compare 1) the read GEQJ1S112HF5CU to the reference sequence Saccharofermentans_accetigenes_1 and 2) the read GEQJ1SS112HN8VO to Heliobacterium_modesticaldum_11.
 
-
-*Before moving on, it is important to note that small reference alignments and trees were used in this tutorial to save time and make visualization easier to interpret; however, the benefits of using SEPP/TIPP are greatest when trees have a large evolutionary diameters -- which is more likely when trees are large. New tools for visualizing phylogenetic placement data from SEPP are on the way courtesy of [Mike Nute](https://publish.illinois.edu/michaelnute/)!*
-
-**FINAL NOTE: In general, SEPP/TIPP should be run on reads and their reverse complement.**
+**FINAL NOTE: Small reference alignments and trees are used in this tutorial to save time and make visualization easy to interpret; however, the benefits of using SEPP/TIPP are greatest when trees have a large evolutionary diameters -- which is more likely when trees are large. New tools for visualizing phylogenetic placement data from SEPP are on the way courtesy of [Mike Nute](https://publish.illinois.edu/michaelnute/)!**
 
 Part III: Phylogenetic (Abundance) Profiling with TIPP
 ------------------------------------------------------
