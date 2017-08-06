@@ -176,7 +176,7 @@ You will notice several new options including
 + -c [configuration file for TIPP]
 + -d [name of output directory]
 
-The [output](tipp/out/TIPP-95-COGS-SRR059420) shows the abundance of reads from each taxonomic rank, for example, the [genus-level abundance profile](tipp/out/TIPP-95-COGS-SRR059420/abundance.genus.csv) shows that the 95% of reads are classified as Bacteroides. The [markers folder](https://github.com/ekmolloy/stamps-tutorial/tree/master/tipp/out/TIPP-95-COGS-SRR059420/markers) contains the output from running TIPP on each of the markers.
+The [output](tipp/out/TIPP-95-COGS-SRR059420) shows the abundance of reads from each taxonomic rank, for example, the [genus-level abundance profile](tipp/out/TIPP-95-COGS-SRR059420/abundance.genus.csv) shows that the 95% of reads (that match to a COG gene) are classified as Bacteroides. The [markers folder](https://github.com/ekmolloy/stamps-tutorial/tree/master/tipp/out/TIPP-95-COGS-SRR059420/markers) contains the output from running TIPP on each of the markers.
 
 Thank you!
 ----------
