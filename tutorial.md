@@ -93,7 +93,7 @@ Let's visualize these placements. First, we will need to convert the json placem
 ```
 Download the tree files onto your personal computer, e.g., by opening a new terminal and typing
 ```
-scp *.tog.xml ~/Desktop
+scp [username]@[mblservers]:~/stamps-tutorial/sepp/SEPP-RDP-RUMINO-READS_placement.tog.xml ~/Desktop
 ```
 [EvolView](http://www.evolgenius.info/evolview) can then be used to visualize the placement of query sequences in the reference tree with [colored branches](http://evolview.codeplex.com/wikipage?title=DatasetBranchColor) and [colored leaves](https://evolview.codeplex.com/wikipage?title=DatasetLeafColor). Simply 
 
