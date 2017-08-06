@@ -41,37 +41,55 @@ python /class/stamps-software/sepp/run_tipp.py \
 This will take 5-6 minutes to finish. In the meantime, let's breakdown this command.   
 
 The first five options specify files included in the reference package
-+ -a [reference multiple sequence alignment -- fasta format](refpkgs/RDP_2016_Clostridia.refpkg/pasta.fasta)
-+ -t [reference taxonomy -- newick format](refpkgs/RDP_2016_Clostridia.refpkg/pasta.taxonomy)
-+ -r [reference tree model parameters -- RAxML info file](refpkgs/RDP_2016_Clostridia.refpkg/RAxML_info.taxonomy)
-+ -tx [csv file mapping taxonomic id to taxonomy information](refpkgs/RDP_2016_Clostridia.refpkg/taxonomy.table)
-+ -txm [csv mapping sequence names to taxonomic ids](refpkgs/RDP_2016_Clostridia.refpkg/species.mapping)
++ -a [Reference multiple sequence alignment -- fasta format](refpkgs/RDP_2016_Clostridia.refpkg/pasta.fasta)
++ -t [Reference taxonomy -- newick format](refpkgs/RDP_2016_Clostridia.refpkg/pasta.taxonomy)
++ -r [Reference tree model parameters -- RAxML info file](refpkgs/RDP_2016_Clostridia.refpkg/RAxML_info.taxonomy)
++ -tx [CSV file mapping taxonomic id to taxonomy information](refpkgs/RDP_2016_Clostridia.refpkg/taxonomy.table)
++ -txm [CSV mapping sequence names to taxonomic IDs](refpkgs/RDP_2016_Clostridia.refpkg/species.mapping)
 
+The next two options specify the decomposition of the reference alignment and tree into subsets.
++ -A [alignment subset size]
++ -P [placement subset size]
+TIPP was run with an alignment subset size of 100 (slightly less than 10% of the Clostridia reference package) and a placement subset size of 1000 (greater than the entire Clostridia reference package). Recall that running SEPP/TIPP with larger placement subset sizes can increase accuracy but is more computationally intensive. The default alignment/placement subset sizes follow the 10% rule.
 
+The next two options specify the support thresholds used by TIPP.
++ -at [alignment support threshold]
++ -pt [placement support threshold]
+TIPP was run with support thresholds of 0.95, which is the default. 
+
+The next two options specify the input and output
++ -f [fragment file -- fasta](samples/16S/SRR1219742_RDP_2016_Clostridia.fasta)
++ -o [prefix of output files]
+
+The final options set specifically for STAMPS tutorial to prevent temporary files from being written all over the MBL servers and limit the number of CPUs per user.
 
 To see all of the [TIPP options](tipp-help.md), run
 ```
 python /class/stamps-software/sepp/run_tipp.py -h
 ```
-
-Now...
+By now TIPP may have finished and written the following five files
++ alignment file (tipp/out/TIPP-RDP-CLOSTRIDIA-95-SRR1219742_alignment.fasta.gz)
++ classification file [TIPP-RDP-CLOSTRIDIA-95-SRR1219742_classification.txt]
++ (JSON file containing phylogenetic placement information)(tipp/out/TIPP-RDP-CLOSTRIDIA-95-SRR1219742_placement.json)
++ (FASTA file containing an alignment on both the reference and query sequences)[tipp/out/TIPP-RDP-CLOSTRIDIA-95-SRR1219742_alignment.fasta.gz]
+You can take a look at the support of the classification of sequences at the species level by
 ```
 grep ",species," TIPP-RDP-CLOSTRIDIA-95-SRR1219742_classification.txt
 ```
-...
+You can also get information on the number of reads classified at each taxonomic rank by 
 ```
 python ../tools/restructure_tipp_classification.py \
     -i TIPP-RDP-CLOSTRIDIA-95-SRR1219742_classification.txt \
     -o FINAL-TIPP-RDP-CLOSTRIDIA-95-SRR1219742
 ```
-Check out that 
+Then
 ```
 cat FINAL-TIPP-RDP-CLOSTRIDIA-95-SRR1219742_species.csv
 ```
-and see that the majority of reads come from...
+shows you that the vast majority are Fastidiosipila sanguinis (213 reads) followed by Anaerovorax odorimutans (144 reads).
 
+Before moving on, it is important to note that **TIPP should be run on reads and their reverse complement** -- and the sequence with the lowest taxonomic classification be used.
 
-**Importantly, TIPP was run on both the reads and their reverse complement -- and the sequence with the lowest taxonomic classification used for this tutorial.**
 
 Part II: Phylogenetic Placement using SEPP
 ------------------------------------------
