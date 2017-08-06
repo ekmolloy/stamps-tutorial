@@ -42,27 +42,27 @@ python /class/stamps-software/sepp/run_tipp.py \
     --cpu 2
 ```
 This will take 5-6 minutes to finish. In the meantime, let's breakdown the command. The first five options specify files included in the reference package
-+ `-a` `[`[`reference multiple sequence alignment -- fasta format`](refpkgs/RDP_2016_Clostridia.refpkg/pasta.fasta)`]`
-+ -t [[reference taxonomy -- newick format](refpkgs/RDP_2016_Clostridia.refpkg/pasta.taxonomy)]
-+ -r [[reference tree model parameters -- RAxML info file](refpkgs/RDP_2016_Clostridia.refpkg/RAxML_info.taxonomy)]
-+ -tx [[mapping taxonomic id to taxonomy information -- csv](refpkgs/RDP_2016_Clostridia.refpkg/taxonomy.table)]
-+ -txm [[mapping sequence names to taxonomic IDs -- csv](refpkgs/RDP_2016_Clostridia.refpkg/species.mapping)]
++ `-a [`[`reference multiple sequence alignment -- fasta format`](refpkgs/RDP_2016_Clostridia.refpkg/pasta.fasta)`]`
++ `-t [`[`reference taxonomy -- newick format`](refpkgs/RDP_2016_Clostridia.refpkg/pasta.taxonomy)`]`
++ `-r [`[`reference tree model parameters -- RAxML info file`](refpkgs/RDP_2016_Clostridia.refpkg/RAxML_info.taxonomy)`]`
++ `-tx [`[`mapping taxonomic id to taxonomy information -- csv`](refpkgs/RDP_2016_Clostridia.refpkg/taxonomy.table)`]`
++ `-txm [`[`mapping sequence names to taxonomic IDs -- csv`](refpkgs/RDP_2016_Clostridia.refpkg/species.mapping)`]`
 
 The next two options specify the decomposition of the reference alignment and tree into subsets.
-+ -A [alignment subset size]
-+ -P [placement subset size]
++ `-A [alignment subset size]`
++ `-P [placement subset size]`
 
 TIPP was run with an alignment subset size of 100 (slightly less than 10% of the Clostridia reference package) and a placement subset size of 1000 (greater than the entire Clostridia reference package). Recall that running SEPP/TIPP with larger placement subset sizes can increase accuracy but is more computationally intensive. The default alignment/placement subset sizes follow the 10% rule.
 
 The next two options specify the support thresholds used by TIPP.
 + `-at [alignment support threshold]`
-+ -pt [placement support threshold]
++ `-pt [placement support threshold]`
 
 TIPP was run with support thresholds of 0.95, which is the default. 
 
 The next two options specify the input and output
-+ -f [[fragment file -- fasta](samples/16S/SRR1219742_RDP_2016_Clostridia.fasta)]
-+ -o [prefix of output files]
++ `-f [`[`fragment file -- fasta`](samples/16S/SRR1219742_RDP_2016_Clostridia.fasta)`]`
++ `-o [prefix of output files]`
 
 The final options are set specifically for STAMPS tutorial to prevent temporary files from being written all over the MBL servers and limit the number of CPUs per user.
 
