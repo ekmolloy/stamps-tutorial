@@ -64,7 +64,7 @@ The next two options specify the input and output
 + -f [[fragment file -- fasta](samples/16S/SRR1219742_RDP_2016_Clostridia.fasta)]
 + -o [prefix of output files]
 
-The final options set specifically for STAMPS tutorial to prevent temporary files from being written all over the MBL servers and limit the number of CPUs per user.
+The final options are set specifically for STAMPS tutorial to prevent temporary files from being written all over the MBL servers and limit the number of CPUs per user.
 
 To see all of the [TIPP options](tipp-help.md), run
 ```
