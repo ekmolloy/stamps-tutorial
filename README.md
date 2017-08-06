@@ -2,9 +2,9 @@ Metagenome Analysis at [STAMPS 2017](https://stamps.mbl.edu/index.php/Schedule)
 ===============================================================================
 
 Instructor: [Tandy Warnow](http://tandy.cs.illinois.edu)  
-Teaching Assistant: [Erin Molloy](http://emolloy2.web.engr.illinois.edu)
+Teaching Assistant: [Erin Molloy](http://emolloy2.web.engr.illinois.edu)   
 
-This is a tutorial for the **SEPP** and **TIPP** software packages developed in the Warnow Lab by [Siavash Mirarab](http://eceweb.ucsd.edu/~smirarab/) and [Nam Nguyen](https://sites.google.com/a/eng.ucsd.edu/namphuon/home). To begin the hands-on part of the tutorial on the MBL servers, clone this repository in your home directory,
+This is a tutorial for the **SEPP** and **TIPP** software packages developed in the Warnow Lab by [Siavash Mirarab](http://eceweb.ucsd.edu/~smirarab/) and [Nam Nguyen](https://sites.google.com/a/eng.ucsd.edu/namphuon/home). Presentation slides for the lecture are [here](http://tandy.cs.illinois.edu/stamps-warnow-v4.pdf). To begin the hands-on part of the tutorial, clone this repository in your home directory on the MBL servers,
 ```
 git clone https://github.com/ekmolloy/stamps-tutorial.git
 ```
