@@ -38,7 +38,16 @@ python /class/stamps-software/sepp/run_tipp.py \
     --tempdir tmp \
     --cpu 2
 ```
-This will take 5-6 minutes to finish. In the meantime, let's breakdown this command.
+This will take 5-6 minutes to finish. In the meantime, let's breakdown this command.   
+
+The first five options specify files included in the reference package
++ `-a` [reference multiple sequence alignment (fasta)](../refpkgs/RDP_2016_Clostridia.refpkg/pasta.fasta)
++ 
++ 
++ 
++ 
+
+
 
 To see all of the [TIPP options](tipp-help.md), run
 ```
