@@ -24,7 +24,7 @@ Change into the tipp directory,
 ```
 cd stamps-tutorial/tipp
 ```
-and run TIPP using the following command:
+and run TIPP using the following command
 ```
 python /class/stamps-software/sepp/run_tipp.py \
     -a ../refpkgs/RDP_2016_Clostridia.refpkg/pasta.fasta \
