@@ -190,12 +190,12 @@ python /class/stamps-software/sepp/run_abundance.py \
     --tempdir tmp \
     --cpu 2
 ```
-The above command includes the following new options
+The above command includes the following new options,
 + `-G [whether marker genes or COGs should be used]`
 + `-c [configuration file for TIPP]`
 + `-d [name of output directory]`
 
-And the [output](tipp/out/TIPP-95-COGS-SRR059420) includes the abundance profile for each taxonomic rank, for example, the [genus-level abundance profile](tipp/out/TIPP-95-COGS-SRR059420/abundance.genus.csv) shows that the 95% of reads (that match to a COG) are classified as Bacteroides. Finally, the [markers folder](https://github.com/ekmolloy/stamps-tutorial/tree/master/tipp/out/TIPP-95-COGS-SRR059420/markers) contains the output from running TIPP on each of the markers.
+and the [output](tipp/out/TIPP-95-COGS-SRR059420) will include abundance profile for each taxonomic rank, for example, the [genus-level abundance profile](tipp/out/TIPP-95-COGS-SRR059420/abundance.genus.csv) shows that the 95% of reads (that match to a COG) are classified as Bacteroides. Finally, the [markers folder](https://github.com/ekmolloy/stamps-tutorial/tree/master/tipp/out/TIPP-95-COGS-SRR059420/markers) contains the output from running TIPP on each of the markers.
 
 *Before leaving Woods Hole, consider using the commands in this portion of the tutorial to analyze a shotgun dataset of interest to you. Let us know how it goes!*
 
