@@ -129,13 +129,13 @@ python /class/stamps-software/sepp/run_sepp.py \
 ```
 Both the command and the output are nearly identical to TIPP; however, alignment and placement support thresholds are not specified, and the classification file is not written. Use the [placement file from SEPP](sepp/out/SEPP-RDP-RUMINO-READS_placement.json) to rank the five reads by the branch length connecting the read to the Ruminococcaceae tree. You may need read more about the json file format [here](https://matsen.github.io/pplacer/generated_rst/pplacer.html) (search for JSON format specification) or [here](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0031009). 
 
-Now we will visualize these placements. First, the placement file needs to be converted into a tree format (e.g., newick or xml) using [guppy](https://matsen.github.io/pplacer/generated_rst/guppy.html)
+Now we will visualize these placements by converting the placement file into a tree format (e.g., newick or xml) with [guppy](https://matsen.github.io/pplacer/generated_rst/guppy.html)
 ```
 /class/stamps-software/sepp/.sepp/bundled-v4.3.2/guppy tog \
     --xml \
     SEPP-RDP-RUMINO-READS_placement.json
 ```
-Download the xml file onto your personal computer, for example, by opening a new terminal and typing
+Download the xml file onto your personal computer, e.g., by opening a new terminal and typing
 ```
 scp [user-name]@[mbl-server-name]:~/stamps-tutorial/sepp/SEPP-RDP-RUMINO-READS_placement.tog.xml ~/Desktop
 ```
@@ -156,7 +156,7 @@ Use the [alignment file from SEPP](sepp/out/SEPP-RDP-RUMINO-READS_alignment.fast
 grep -A1 "GEQJ1S112HF5CU" SEPP-RDP-RUMINO-READS_alignment.fasta > SEPP-RDP-RUMINO-READS_subset.fasta
 grep -A1 "Saccharofermentans_acetigenes_1" SEPP-RDP-RUMINO-READS_alignment.fasta >> SEPP-RDP-RUMINO-READS_subset.fasta
 ```
-and download it onto your personal computer, for example, by opening a new terminal and typing
+and download it onto your personal computer, e.g., by opening a new terminal and typing
 ```
 scp [user-name]@[mbl-server-name]:~/stamps-tutorial/sepp/SEPP-RDP-RUMINO-READS_subset.fasta ~/Desktop
 ```
