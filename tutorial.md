@@ -78,7 +78,7 @@ python /class/stamps-software/sepp/run_sepp.py \
     -A 25 \
     -P 100 \
     -f ../samples/16S/READS-Ruminococcaceae.fasta \
-    -o SEPP-RDP-RUMINO-SRR1219742 \
+    -o SEPP-RDP-RUMINO-READS \
     --tempdir tmp \
     --cpu 2
 ```
