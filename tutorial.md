@@ -50,11 +50,13 @@ The first five options specify files included in the reference package
 The next two options specify the decomposition of the reference alignment and tree into subsets.
 + -A [alignment subset size]
 + -P [placement subset size]
+
 TIPP was run with an alignment subset size of 100 (slightly less than 10% of the Clostridia reference package) and a placement subset size of 1000 (greater than the entire Clostridia reference package). Recall that running SEPP/TIPP with larger placement subset sizes can increase accuracy but is more computationally intensive. The default alignment/placement subset sizes follow the 10% rule.
 
 The next two options specify the support thresholds used by TIPP.
 + -at [alignment support threshold]
 + -pt [placement support threshold]
+
 TIPP was run with support thresholds of 0.95, which is the default. 
 
 The next two options specify the input and output
@@ -68,25 +70,24 @@ To see all of the [TIPP options](tipp-help.md), run
 python /class/stamps-software/sepp/run_tipp.py -h
 ```
 By now TIPP may have finished and written the following five files
-+ alignment file (tipp/out/TIPP-RDP-CLOSTRIDIA-95-SRR1219742_alignment.fasta.gz)
-+ classification file [TIPP-RDP-CLOSTRIDIA-95-SRR1219742_classification.txt]
-+ (JSON file containing phylogenetic placement information)(tipp/out/TIPP-RDP-CLOSTRIDIA-95-SRR1219742_placement.json)
-+ (FASTA file containing an alignment on both the reference and query sequences)[tipp/out/TIPP-RDP-CLOSTRIDIA-95-SRR1219742_alignment.fasta.gz]
-You can take a look at the support of the classification of sequences at the species level by
++ [classification information -- csv](tipp/out/TIPP-RDP-CLOSTRIDIA-95-SRR1219742_classification.txt)
++ (phylogenetic placement information -- json)(tipp/out/TIPP-RDP-CLOSTRIDIA-95-SRR1219742_placement.json)
++ [alignment on both the reference and query sequences -- fasta](tipp/out/TIPP-RDP-CLOSTRIDIA-95-SRR1219742_alignment.fasta.gz)
+The classification file shows the support of classifying sequences at each taxonomic rank. Check out the support for species-level classification via
 ```
 grep ",species," TIPP-RDP-CLOSTRIDIA-95-SRR1219742_classification.txt
 ```
-You can also get information on the number of reads classified at each taxonomic rank by 
+The number of reads classified at each taxonomic rank can be computed using
 ```
 python ../tools/restructure_tipp_classification.py \
     -i TIPP-RDP-CLOSTRIDIA-95-SRR1219742_classification.txt \
     -o FINAL-TIPP-RDP-CLOSTRIDIA-95-SRR1219742
 ```
-Then
+and examining this files
 ```
 cat FINAL-TIPP-RDP-CLOSTRIDIA-95-SRR1219742_species.csv
 ```
-shows you that the vast majority are Fastidiosipila sanguinis (213 reads) followed by Anaerovorax odorimutans (144 reads).
+shows the vast majority of reads are identified as Fastidiosipila sanguinis (213 reads) followed by Anaerovorax odorimutans (144 reads).
 
 Before moving on, it is important to note that **TIPP should be run on reads and their reverse complement** -- and the sequence with the lowest taxonomic classification be used.
 
