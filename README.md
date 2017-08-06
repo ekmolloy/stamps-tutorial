@@ -4,7 +4,7 @@ Metagenome Analysis at [STAMPS 2017](https://stamps.mbl.edu/index.php/Schedule)
 Instructor: [Tandy Warnow](http://tandy.cs.illinois.edu)  
 Teaching Assistant: [Erin Molloy](http://emolloy2.web.engr.illinois.edu)   
 
-This is a tutorial for the **SEPP** (SATe-Enabled Phylogenetic Placement) and **TIPP** (Taxonomic Identification and Phylogenetic Profiling) software packages developed in the Warnow Lab by [Siavash Mirarab](http://eceweb.ucsd.edu/~smirarab/) and [Nam Nguyen](https://sites.google.com/a/eng.ucsd.edu/namphuon/home). Lecture slides can be referred to [here](http://tandy.cs.illinois.edu/stamps-warnow.pdf). To begin the hands-on part of the tutorial, clone this repository in your home directory on the MBL servers,
+This is a tutorial for the **SEPP** (SATe-Enabled Phylogenetic Placement) and **TIPP** (Taxonomic Identification and Phylogenetic Profiling) software packages developed in the Warnow Lab. Lecture slides can be referred to [here](http://tandy.cs.illinois.edu/stamps-warnow.pdf). To begin the hands-on part of the tutorial, clone this repository in your home directory on the MBL servers,
 ```
 git clone https://github.com/ekmolloy/stamps-tutorial.git
 ```
@@ -14,9 +14,11 @@ load the python 2.7.12 module,
 module purge
 module load python/2.7.12-201701011205
 ```
-and follow the [**tutorial worksheet**](tutorial.md). This tutorial is set-up to run on the MBL servers, where SEPP/TIPP have already been installed. In the future, SEPP/TIPP can be downloaded [here](https://github.com/smirarab/sepp). 
+and begin reading the [**tutorial worksheet**](tutorial.md). This tutorial is written for the installation of SEPP/TIPP on the MLB servers. **Please flag us down when you have questions, we are happy to help!**
 
-**Please flag us down when you have questions, we are happy to help!**
+In the future, you may wish to
++ Downloaded SEPP/TIPP from [here](https://github.com/smirarab/sepp).
++ Work through additional tutorials found [here](https://github.com/smirarab/sepp/tree/master/tutorial).
 
 Citations
 ---------
