@@ -41,7 +41,7 @@ python /class/stamps-software/sepp/run_tipp.py \
     --tempdir tmp \
     --cpu 2
 ```
-This will take 5-6 minutes to finish. In the meantime, let's breakdown the command. The first five options specify files included in the reference package
+This will take 5-6 minutes to finish. In the meantime, let's break down the command. The first five options specify files included in the reference package
 + `-a [`[`reference multiple sequence alignment -- fasta format`](refpkgs/RDP_2016_Clostridia.refpkg/pasta.fasta)`]`
 + `-t [`[`reference taxonomy -- newick format`](refpkgs/RDP_2016_Clostridia.refpkg/pasta.taxonomy)`]`
 + `-r [`[`reference tree model parameters -- RAxML info file`](refpkgs/RDP_2016_Clostridia.refpkg/RAxML_info.taxonomy)`]`
@@ -110,7 +110,7 @@ You can examine the support at which these reads are classfied at the family lev
 grep "GEQJ1S112HF5CU" TIPP-RDP-CLOSTRIDIA-95-SRR1219742_classification.txt 
 ```
 
-SEPP can be used to place these five query sequences into the RDP Bacteria reference package; however, we will use SEPP with a RDP Bacteria reference package constrained to the Ruminococcaceae family (55 sequences) for visualization purposes. Change into the sepp directory
+SEPP can be used to place these five query sequences into the RDP Bacteria reference package; however, we will use SEPP with an RDP Bacteria reference package constrained to the Ruminococcaceae family (55 sequences) for visualization purposes. Change into the sepp directory
 ```
 cd ../sepp
 ```
@@ -160,7 +160,7 @@ and download it onto your personal computer, e.g., by opening a new terminal and
 ```
 scp [user-name]@class.mbl.edu:~/stamps-tutorial/sepp/SEPP-RDP-RUMINO-READS_subset.fasta ~/Desktop
 ```
-[MSAViewer](http://msa.biojs.net) can be used to visualize the multiple sequence alignment. Scroll down and click he little arrow icon under "Use It". Then click "Import" followed by "From file".
+[MSAViewer](http://msa.biojs.net) can be used to visualize the multiple sequence alignment. Scroll down and click the little arrow icon under "Use It". Then click "Import" followed by "From file".
 
 *Before moving on, let's consider the relationship between alignment, placement, and classification. Go back to the TIPP directory*
 ```
@@ -168,11 +168,11 @@ cd ../TIPP
 ```
 *Use the [cladogram](images/helio-cladogram.pdf) to identify reference sequences near GEQJ1S112HN8VO (e.g., Heliobacterium_modesticaldum_11). Extract these sequences from the alignment file from TIPP and visualize. Now examine the placement file from TIPP. What are branch lengths and maximum likelihood scores for placements of GEQJ1S112HN8VO onto the Clostridia reference tree? Now discuss TIPP (with 0.50 support thresholds) classifying GEQJ1S112HN8VO as Heliobacterium modesticaldum Ice1 (below species level) versus TIPP (with 0.95 support thresholds) classifying GEQJ1S112HN8VO as Clostridiales order and Unclassified at the family, genus, and species levels.*
 
-**JUST A REMINDER: Small reference alignments and trees are used in this tutorial to save time and make visualization easier; however, the benefits of using SEPP/TIPP are greatest when trees have a large evolutionary diameters -- which is more likely for trees are large. New tools for visualizing phylogenetic placements for large trees are on the way courtesy of [Mike Nute](https://publish.illinois.edu/michaelnute/)!**
+**JUST A REMINDER: Small reference alignments and trees are used in this tutorial to save time and make visualization easier; however, the benefits of using SEPP/TIPP are greatest when trees have a large evolutionary diameters -- which is more likely for trees are large. New tools for visualizing phylogenetic placements for large trees are on the way, courtesy of [Mike Nute](https://publish.illinois.edu/michaelnute/)!**
 
 Part III: Phylogenetic (Abundance) Profiling with TIPP
 ------------------------------------------------------
-All prior analyses are on 16S, which is not a single copy. TIPP can be used for phylogenetic (abundance) profiling by using a collection of marker genes as reference alignments and trees. First, BLAST is used to identify whether a read is a match for a specific marker gene. If so, TIPP is used to classify the read. To run this analysis (in the future), create an output directory
+All prior analyses are on 16S, which is not single copy. TIPP can be used for phylogenetic (abundance) profiling by using a collection of marker genes (i.e., single copy universal genes) as reference alignments and trees. First, BLAST is used to identify whether a read is a match for a specific marker gene. If so, TIPP is used to classify the read. To run this analysis (in the future), create an output directory
 ```
 mkdir TIPP-COGS-95-SRR059420
 mkdir TIPP-COGS-95-SRR059420/markers
