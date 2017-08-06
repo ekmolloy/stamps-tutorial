@@ -197,11 +197,7 @@ The above command includes the following new options,
 
 and the [output](tipp/out/TIPP-95-COGS-SRR059420) will include abundance profile for each taxonomic rank, for example, the [genus-level abundance profile](tipp/out/TIPP-95-COGS-SRR059420/abundance.genus.csv) shows that the 95% of reads (that match to a COG) are classified as Bacteroides. Finally, the [markers folder](https://github.com/ekmolloy/stamps-tutorial/tree/master/tipp/out/TIPP-95-COGS-SRR059420/markers) contains the output from running TIPP on each of the markers.
 
-*Before leaving Woods Hole, consider using the commands in this portion of the tutorial to analyze a shotgun dataset of interest to you. Let us know how it goes!*
-
-Thank you!
-----------
-Thank you for taking the time to do this tutorial, and please let us know if you have any more questions or comments!
+*Before leaving Woods Hole, consider using the commands in this portion of the tutorial to analyze a shotgun dataset of interest to you. Let us know how it goes!* **Thank you!**
 
 Citations
 ---------
