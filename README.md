@@ -4,7 +4,7 @@ Metagenome Analysis at [STAMPS 2017](https://stamps.mbl.edu/index.php/Schedule)
 Instructor: [Tandy Warnow](http://tandy.cs.illinois.edu)  
 Teaching Assistant: [Erin Molloy](http://emolloy2.web.engr.illinois.edu)   
 
-This is a tutorial for the **SEPP** (SATe-Enabled Phylogenetic Placement) and **TIPP** (Taxonomic Identification and Phylogenetic Profiling) software packages developed in the Warnow Lab. Lecture slides can be referred to [here](http://tandy.cs.illinois.edu/stamps-warnow.pdf). To begin the hands-on part of the tutorial, clone this repository in your home directory on the MBL servers,
+This is a tutorial for the **SEPP** (SATe-Enabled Phylogenetic Placement) and **TIPP** (Taxonomic Identification and Phylogenetic Profiling) software packages developed in the Warnow Lab. Lecture slides can be referred to [here](http://tandy.cs.illinois.edu/stamps-warnow.pdf). The hands-on part of the tutorial has been written for the installation of SEPP/TIPP on the MLB servers. To begin, clone this repository in your home directory on the MBL servers,
 ```
 git clone https://github.com/ekmolloy/stamps-tutorial.git
 ```
@@ -14,7 +14,7 @@ load the python 2.7.12 module,
 module purge
 module load python/2.7.12-201701011205
 ```
-and begin reading the [**tutorial worksheet**](tutorial.md). This tutorial is written for the installation of SEPP/TIPP on the MLB servers. **Please flag us down when you have questions, we are happy to help!**
+and begin reading the [**tutorial worksheet**](tutorial.md).  **Please flag us down when you have questions, we are happy to help!**
 
 In the future, you may wish to
 + Downloaded SEPP/TIPP from [here](https://github.com/smirarab/sepp).
