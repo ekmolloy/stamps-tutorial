@@ -12,7 +12,7 @@ Phylogenetic placement (SEPP) and taxonomic identification (TIPP) of 16S samples
 
 The size of the reference package and the number of query sequences affect the running time of SEPP and TIPP. For example, the number of sequences in the reference dataset and the alignment subset size determine how many profile HMMs must be built over the reference alignment. Then each query sequence in the sample must be aligned (and scored) to each of these profile HMMs. In this tutorial, we will use only a subset of the RDP Bacteria reference package. TIPP has already been run on the first 2,500 sequences from the 16S sample (SRR1219742). As the majority of classified reads (929 reads) were identified as Clostridia, the RDP Bacteria reference package has been constrained to the 707 sequences in the Clostridia class. These reads can now be classified at the family, genus, and species levels using TIPP!
 
-The final part of this tutorial use TIPP for abundance profiling on a set of 30 marker genes from 
+The final part of this tutorial use TIPP for abundance profiling on a set of 30 marker genes (i.e., "use universal housekeeping genes that are unlikely to undergo duplication or horizontal gene transfer") from MetaPhyler.
 
 Part I: Taxonomic Identification using TIPP
 -------------------------------------------
