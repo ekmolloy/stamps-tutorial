@@ -150,7 +150,7 @@ Examining the [cladogram](images/rumino-cladogram.pdf), we can notice that GEQJ1
 
 Part III: Phylogenetic (Abundance) Profiling with TIPP
 ------------------------------------------------------
-All prior analyses are on 16S -- which is not a single copy marker. TIPP can also be used for phylogenetic (abundance profiling) by using a set of marker genes. First, BLAST is used to identify whether a read is a match for a specific marker gene. If so, TIPP is used to classify the read. To run this analysis (in the future), change back into the tipp directory,
+All prior analyses are on 16S -- which is not a single copy marker. TIPP can also be used for phylogenetic (abundance) profiling by using a set of marker genes. First, BLAST is used to identify whether a read is a match for a specific marker gene. If so, TIPP is used to classify the read. To run this analysis (in the future), change back into the tipp directory,
 ```
 cd ../tipp
 ```
