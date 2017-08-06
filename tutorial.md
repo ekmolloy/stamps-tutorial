@@ -12,7 +12,7 @@ The [RDP 2016 Bacteria reference package](refpkgs/RDP_2016_Bacteria.refpkg) is u
 
 The size of the reference package and the number of query sequences affect the running time of SEPP and TIPP. For example, the number of sequences in the reference dataset and the alignment subset size determines how many profile HMMs must be built over the reference alignment. Then each query sequence in the sample must be aligned (and scored) to each of these profile HMMs. 
 
-Running TIPP on the first 2,500 sequences from the 16S sample (SRR1219742) showed that the majority of reads (929 out of the first 2,500 reads) were identified as Clostridia. For this tutorial, the RDP Bacteria reference package was constrained to 707 sequences in the Clostridia class. Now you will be classifying these reads at the family, genus, and species levels using TIPP!
+Running TIPP on the first 2,500 sequences from the 16S sample (SRR1219742) showed that the majority of reads (929 out of the first 2,500 reads) were identified as Clostridia. For this tutorial, the RDP Bacteria reference package was constrained to 707 sequences in the Clostridia class. You will be classifying these reads at the family, genus, and species levels using TIPP!
 
 If you haven't done so already, ssh onto the MBL servers, clone this respository, and load the python 2.7.12 module.
 ```
