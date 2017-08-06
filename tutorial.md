@@ -52,7 +52,7 @@ The next two options specify the decomposition of the reference alignment and tr
 + `-A [alignment subset size]`
 + `-P [placement subset size]`
 
-TIPP was run with an alignment subset size of 100 (slightly less than 10% of the Clostridia reference package) and a placement subset size of 1000 (greater than the entire Clostridia reference package). Recall that running SEPP/TIPP with larger placement subset sizes can increase accuracy but is more computationally intensive. The default alignment/placement subset sizes follow the 10% rule.
+TIPP was run with an alignment subset size of 100 (slightly less than 10% of the Clostridia reference package) and a placement subset size of 1000 (greater than the entire Clostridia reference package). Recall that running SEPP/TIPP with larger placement subset sizes can increase accuracy but is more computationally intensive. The default alignment subset size follows the 10% rule.
 
 The next two options specify the support thresholds used by TIPP.
 + `-at [alignment support threshold]`
