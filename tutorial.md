@@ -93,7 +93,7 @@ shows the vast majority of reads are unclassified (545 reads). Classified reads 
 
 *Before moving on, repeat this portion of the tutorial running TIPP with a lower alignment/placement support threshold (e.g., 0.50). What do the support values look like for reads classified at the species level? How does the number of reads unclassified at the species level compare to TIPP run with an alignment/placement support threshold of 0.95?*
 
-**FINAL NOTE: In general, SEPP/TIPP should be run on reads and their reverse complement. This has already been taken care of in setting up the 16S sample read for this tutorial.**
+**FINAL NOTE: In general, SEPP/TIPP should be run on reads and their reverse complement. This has already been taken care of in setting up the 16S reads for this tutorial.**
 
 
 Part II: Phylogenetic Placement using SEPP
