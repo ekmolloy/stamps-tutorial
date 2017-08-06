@@ -56,7 +56,7 @@ python ../tools/restructure_tipp_classification.py \
 ```
 Check out that 
 ```
-cat TIPP-RDP-CLOSTRIDIA-95-SRR1219742_species.csv
+cat FINAL-TIPP-RDP-CLOSTRIDIA-95-SRR1219742_species.csv
 ```
 and see that the majority of reads come from...
 
