@@ -8,7 +8,7 @@ Learn how to analyze metagenomic datasets with the **SEPP** (SATe-Enabled Phylog
 
 This tutorial includes
 + [Lecture slides](http://tandy.cs.illinois.edu/stamps-warnow.pdf)
-+ [Hands-on worksheet](tutorial.md) -- written for the installation of SEPP/TIPP on the MLB servers
++ [Hands-on worksheet](tutorial.md) *-- written for the installation of SEPP/TIPP on the MLB servers*
 
 **Please flag us down when you have questions, we are happy to help!**
 
