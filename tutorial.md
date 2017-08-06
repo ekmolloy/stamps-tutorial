@@ -146,7 +146,7 @@ Examining the [cladogram](images/rumino-cladogram.pdf), we can notice that GEQJ1
 
 *Before moving on, use the alignment file from SEPP to compare 1) the read GEQJ1S112HF5CU to the reference sequence Saccharofermentans_accetigenes_1 and 2) the read GEQJ1SS112HN8VO to the reference sequence Heliobacterium_modesticaldum_11.*
 
-**FINAL NOTE: Small reference alignments and trees are used in this tutorial to save time and make visualization easy to interpret; however, the benefits of using SEPP/TIPP are greatest when trees have a large evolutionary diameters -- which is more likely when trees are large. New tools for visualizing phylogenetic placements for large trees are on the way courtesy of [Mike Nute](https://publish.illinois.edu/michaelnute/)!**
+**FINAL NOTE: Small reference alignments and trees are used in this tutorial to save time and make visualization easy to interpret; however, the benefits of using SEPP/TIPP are greatest when trees have a large evolutionary diameters -- which is more likely for trees are large. New tools for visualizing phylogenetic placements for large trees are on the way courtesy of [Mike Nute](https://publish.illinois.edu/michaelnute/)!**
 
 Part III: Phylogenetic (Abundance) Profiling with TIPP
 ------------------------------------------------------
