@@ -42,11 +42,11 @@ python /class/stamps-software/sepp/run_tipp.py \
     --cpu 2
 ```
 This will take 5-6 minutes to finish. In the meantime, let's breakdown the command. The first five options specify files included in the reference package
-+ -a [reference multiple sequence alignment -- fasta format](refpkgs/RDP_2016_Clostridia.refpkg/pasta.fasta)
-+ -t [reference taxonomy -- newick format](refpkgs/RDP_2016_Clostridia.refpkg/pasta.taxonomy)
-+ -r [reference tree model parameters -- RAxML info file](refpkgs/RDP_2016_Clostridia.refpkg/RAxML_info.taxonomy)
-+ -tx [mapping taxonomic id to taxonomy information -- csv](refpkgs/RDP_2016_Clostridia.refpkg/taxonomy.table)
-+ -txm [mapping sequence names to taxonomic IDs -- csv](refpkgs/RDP_2016_Clostridia.refpkg/species.mapping)
++ -a [[reference multiple sequence alignment -- fasta format](refpkgs/RDP_2016_Clostridia.refpkg/pasta.fasta)]
++ -t [[reference taxonomy -- newick format](refpkgs/RDP_2016_Clostridia.refpkg/pasta.taxonomy)]
++ -r [[reference tree model parameters -- RAxML info file](refpkgs/RDP_2016_Clostridia.refpkg/RAxML_info.taxonomy)]
++ -tx [[mapping taxonomic id to taxonomy information -- csv](refpkgs/RDP_2016_Clostridia.refpkg/taxonomy.table)]
++ -txm [[mapping sequence names to taxonomic IDs -- csv](refpkgs/RDP_2016_Clostridia.refpkg/species.mapping)]
 
 The next two options specify the decomposition of the reference alignment and tree into subsets.
 + -A [alignment subset size]
