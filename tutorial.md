@@ -169,7 +169,7 @@ scp [user-name]@class.mbl.edu:~/stamps-tutorial/sepp/SEPP-RDP-RUMINO-READS_subse
 
 *Before moving on, let's consider the relationship between alignment, placement, and classification. Go back to the TIPP directory*
 ```
-cd ../TIPP
+cd ../tipp
 ```
 *Use the [cladogram](images/helio-cladogram.pdf) to identify reference sequences near GEQJ1S112HN8VO (e.g., Heliobacterium_modesticaldum_11). Extract these sequences from the alignment file from TIPP and visualize. Now examine the placement file from TIPP. What are branch lengths and maximum likelihood scores for placements of GEQJ1S112HN8VO onto the Clostridia reference tree? Now discuss TIPP (with 0.50 support thresholds) classifying GEQJ1S112HN8VO as Heliobacterium modesticaldum Ice1 (below species level) versus TIPP (with 0.95 support thresholds) classifying GEQJ1S112HN8VO as Clostridiales order and Unclassified at the family, genus, and species levels.*
 
