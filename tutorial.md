@@ -172,7 +172,7 @@ python /class/stamps-software/sepp/run_abundance.py \
     --cpu 2
 ```
 You will notice several new options including
-+ -G [whether markers (default) or cogs should be used]
++ -G [whether markers or cogs should be used]
 + -c [configuration file for TIPP]
 + -d [name of output directory]
 
