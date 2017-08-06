@@ -1,5 +1,5 @@
-Metagenomic Analysis using Phylogeny-Aware Profiles -- [STAMPS 2017](https://stamps.mbl.edu/index.php/Schedule)
-===============================================================================================================
+Metagenomic Analysis using Phylogeny-Aware Profiles
+===================================================
 
 Instructor: [Tandy Warnow](http://tandy.cs.illinois.edu)  
 Teaching Assistant: [Erin Molloy](http://emolloy2.web.engr.illinois.edu)   
@@ -8,7 +8,7 @@ Learn how to analyze metagenomic datasets with the **SEPP** (SATe-Enabled Phylog
 
 This tutorial includes
 + [Lecture slides](http://tandy.cs.illinois.edu/stamps-warnow.pdf)
-+ [Hands-on worksheet](tutorial.md) *-- written for the installation of SEPP/TIPP on the MLB servers*
++ [Hands-on worksheet](tutorial.md) *-- written for the installation of SEPP/TIPP on the MLB servers for [STAMPS 2017](https://stamps.mbl.edu/index.php/Schedule))*
 
 **Please flag us down when you have questions, we are happy to help!**
 
