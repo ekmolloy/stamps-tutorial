@@ -201,13 +201,13 @@ and the [output](tipp/out/TIPP-95-COGS-SRR059420) will include abundance profile
 
 Citations
 ---------
-Cole, J. R., Q. Wang, J. A. Fish, B. Chai, D. M. McGarrell, Y. Sun, C. T. Brown, A. Porras-Alfaro, C. R. Kuske, and J. M. Tiedje. 2014. Ribosomal Database Project: data and tools for high throughput rRNA analysis. *Nucl. Acids Res.* 42(Database issue):D633-D642. [doi:10.1093/nar/gkt1244](https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkt1244)
+Cole, J. R., Q. Wang, J. A. Fish, B. Chai, D. M. McGarrell, Y. Sun, C. T. Brown, A. Porras-Alfaro, C. R. Kuske, and J. M. Tiedje. 2014. Ribosomal Database Project: data and tools for high throughput rRNA analysis. *Nucl. Acids Res.* 42(Database issue):D633-D642. doi:[10.1093/nar/gkt1244](https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkt1244)
 
-Liu, B., T. Gibbons, M. Ghodsi, T. Treangen, and M. Pop. Accurate and fast estimation of taxonomic profiles from metagenomic shotgun sequences. 2011. *BMC Genomics* 12(Suppl 2):S4. [doi:10.1186/1471-2164-12-S2-S4](https://bmcgenomics.biomedcentral.com/articles/10.1186/1471-2164-12-S2-S4)
+Liu, B., T. Gibbons, M. Ghodsi, T. Treangen, and M. Pop. Accurate and fast estimation of taxonomic profiles from metagenomic shotgun sequences. 2011. *BMC Genomics* 12(Suppl 2):S4. doi:[10.1186/1471-2164-12-S2-S4](https://bmcgenomics.biomedcentral.com/articles/10.1186/1471-2164-12-S2-S4)
 
 Mirarab, S., N. Nguyen, and T. Warnow. (2012). SEPP: SATe-Enabled Phylogenetic Placement. *Proceedings of the 2012 Pacific Symposium on Biocomputing (PSB 2012)* 17:247-258. doi:[10.1142/9789814366496_0024](http://www.worldscientific.com/doi/abs/10.1142/9789814366496_0024)
 
 Nguyen, N., S. Mirarab, B. Liu, M. Pop, and T. Warnow (2014). TIPP:Taxonomic Identification and Phylogenetic Profiling. *Bioinformatics* 30(24):3548-3555. doi:[10.1093/bioinformatics/btu721](https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btu721)
 
 Yildirim, S., C. J. Yeoman, S. C. Janga, S. M. Thomas, M. Ho, and S. R. Leigh; Primate Microbiome Consortium, White BA4, Wilson BA2, Stumpf RM3. 2014. Primate vaginal microbiomes exhibit species specificity without universal Lactobacillus dominance. *The ISME Journal* 8(12):2431-44.
-([doi:10.1038/ismej.2014.90](http://www.nature.com/ismej/journal/v8/n12/full/ismej201490a.html))
+doi:[10.1038/ismej.2014.90](http://www.nature.com/ismej/journal/v8/n12/full/ismej201490a.html)
