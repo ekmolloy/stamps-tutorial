@@ -5,18 +5,18 @@ Let's analyze metagenomic datasets using SEPP (SATe-Enabled Phylogenetic Placeme
 + Reference alignment and tree or taxonomy
 
 **Query sequences**   
-In this tutorial, we will analyze (subsets of) metagenomic datasets aquired through (16S) amplicon and whole shotgun sequencing. The 16S sample ([SRR1219742](https://www.ncbi.nlm.nih.gov/biosample/SAMN02725485) -- Lemur Vaginal Sample -- 454 GS FLX Titanium) comes from Yildirim et al., 2014. The shotgun sample ([SRR059421](https://www.ncbi.nlm.nih.gov/sra/SRX022983[accn]) -- Human Stool Sample -- Illumina Genome Analyzer II) comes from the [Human Microbiome Project](http://www.hmpdacc.org). All runs were downloaded from the NCBI database using this [fastq-dump command](tools/fastq_dump.sh).
+In this tutorial, we will analyze (subsets of) metagenomic datasets acquired through (16S) amplicon and shotgun sequencing. The 16S sample ([SRR1219742](https://www.ncbi.nlm.nih.gov/biosample/SAMN02725485) -- Lemur Vaginal Sample -- 454 GS FLX Titanium) comes from Yildirim et al., 2014. The shotgun sample ([SRR059421](https://www.ncbi.nlm.nih.gov/sra/SRX022983[accn]) -- Human Stool Sample -- Illumina Genome Analyzer II) comes from the [Human Microbiome Project](http://www.hmpdacc.org). All runs were downloaded from the NCBI database using this [fastq-dump command](tools/fastq_dump.sh).
 
 **Reference alignments and trees**   
-Phylogenetic placement (with SEPP) and taxonomic identification (with TIPP) of 16S samples can be peformed using a [reference alignment and tree](refpkgs/RDP_2016_Bacteria.refpkg) built on the 11,988 bacterial reference sequences from the [Ribosomal Database Project (RDP) database](https://rdp.cme.msu.edu/) by selecting >1200 site-length, type isolates with quality "Good", and the NCBI taxonomy. 
+Phylogenetic placement (with SEPP) and taxonomic identification (with TIPP) of 16S samples can be performed using a [reference alignment and tree](refpkgs/RDP_2016_Bacteria.refpkg) built on the 11,988 bacterial reference sequences from the [Ribosomal Database Project (RDP) database](https://rdp.cme.msu.edu/) by selecting >1200 site-length, type isolates with quality "Good", and the NCBI taxonomy. 
 
 In this tutorial, we will use only a subset of the sequences from the RDP Bacteria reference as the size of the reference as well as the number of query sequences affect the running time of SEPP and TIPP. For example, the number of sequences in the reference alignment and the alignment subset size determine how many profile HMMs must be built over the reference alignment. Then each query sequence in the sample must be aligned (and scored) to each of these profile HMMs. To reduce the size of the reference, TIPP was run on the first 2,500 sequences from the 16S sample (SRR1219742). The majority of classified reads (929 reads) were identified as Clostridia. This subset of reads can now be classified at the family, genus, and species levels using TIPP with the RDP Bacteria reference constrained to the 707 sequences in the Clostridia class.
 
-Taxonomic identification and abundace profiling (with TIPP) of whole shotgun samples can be performed using a collection of reference alignment and trees built from the 30 marker genes (i.e., "use universal housekeeping genes that are unlikely to undergo duplication or horizontal gene transfer") in MetaPhyler.
+Taxonomic identification and abundance profiling (with TIPP) of whole shotgun samples can be performed using a collection of reference alignment and trees built from the 30 marker genes (i.e., "use universal housekeeping genes that are unlikely to undergo duplication or horizontal gene transfer") in MetaPhyler.
 
 Part I: Taxonomic Identification using TIPP
 -------------------------------------------
-To begin, ssh onto the MBL servers, clone this respository,
+To begin, ssh onto the MBL servers, clone this repository,
 ```
 git clone https://github.com/ekmolloy/stamps-tutorial.git
 ```
@@ -90,7 +90,7 @@ python ../tools/restructure_tipp_classification.py \
     -i TIPP-RDP-CLOSTRIDIA-95-SRR1219742_classification.txt \
     -o FINAL-TIPP-RDP-CLOSTRIDIA-95-SRR1219742
 ```
-and examing the read count for species-level classification
+and examining the read count for species-level classification
 ```
 cat FINAL-TIPP-RDP-CLOSTRIDIA-95-SRR1219742_species.csv
 ```
@@ -110,7 +110,7 @@ Now let's take a closer look at some select reads using phylogenetic placement. 
 + GEQJ1S112HNELY  
 + GBEHU2E07D5RLY
 
-You can examine the support at which these reads are classfied at the family level by using grep, e.g.,
+You can examine the support at which these reads are classified at the family level by using grep, e.g.,
 ```
 grep "GEQJ1S112HF5CU" TIPP-RDP-CLOSTRIDIA-95-SRR1219742_classification.txt 
 ```
@@ -167,7 +167,7 @@ scp [user-name]@class.mbl.edu:~/stamps-tutorial/sepp/SEPP-RDP-RUMINO-READS_subse
 ```
 [MSAViewer](http://msa.biojs.net) can be used to visualize the multiple sequence alignment. Scroll down and click the little arrow icon under "Use It". Then click "Import" followed by "From file".
 
-*Before moving on, let's consider the relationship between alignment, placement, and classification. Use the [cladogram](images/helio-cladogram.pdf) to identify reference sequences near GEQJ1S112HN8VO (e.g., Heliobacterium_modesticaldum_11 -- taxon ID is in the TIPP classification file 498761 -- and the sequence ID is S000469502 -- grep for S000469502). Go back to the TIPP directory, and extract these sequences from the alignment file from TIPP. Visualize the alignment, and compare it to the visualuzation of GEQJ1S112HF5CU. Now examine the placement file from TIPP. What are branch lengths and maximum likelihood scores for placements of GEQJ1S112HN8VO onto the Clostridia reference tree? Based on this alignment and placement information, discuss TIPP (with 0.50 support thresholds) classifying GEQJ1S112HN8VO as Heliobacterium modesticaldum Ice1 (below species level) versus TIPP (with 0.95 support thresholds) classifying GEQJ1S112HN8VO as Clostridiales order and Unclassified at the family, genus, and species levels.*
+*Before moving on, let's consider the relationship between alignment, placement, and classification. Use the [cladogram](images/helio-cladogram.pdf) to identify reference sequences near GEQJ1S112HN8VO (e.g., Heliobacterium_modesticaldum_11 -- taxon ID is in the TIPP classification file 498761 -- and the sequence ID is S000469502 -- grep for S000469502). Go back to the TIPP directory, and extract these sequences from the alignment file from TIPP. Visualize the alignment, and compare it to the visualization of GEQJ1S112HF5CU. Now examine the placement file from TIPP. What are branch lengths and maximum likelihood scores for placements of GEQJ1S112HN8VO onto the Clostridia reference tree? Based on this alignment and placement information, discuss TIPP (with 0.50 support thresholds) classifying GEQJ1S112HN8VO as Heliobacterium modesticaldum Ice1 (below species level) versus TIPP (with 0.95 support thresholds) classifying GEQJ1S112HN8VO as Clostridiales order and Unclassified at the family, genus, and species levels.*
 
 **JUST A REMINDER: Small reference alignments and trees are used in this tutorial to save time and make visualization easier; however, the benefits of using SEPP/TIPP are greatest when trees have a large evolutionary diameters -- which is more likely for trees are large. New tools for visualizing phylogenetic placements for large trees are on the way, courtesy of [Mike Nute](https://publish.illinois.edu/michaelnute/)!**
 
