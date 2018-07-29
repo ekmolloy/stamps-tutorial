@@ -7,9 +7,9 @@ Teaching Assistant: [Erin Molloy](http://emolloy2.web.engr.illinois.edu)
 Learn how to analyze metagenomic datasets with the **SEPP** (SATe-Enabled Phylogenetic Placement) and **TIPP** (Taxonomic Identification and Phylogenetic Profiling) software programs!
 
 This tutorial includes
-+ [Lecture slides from 2017](http://tandy.cs.illinois.edu/stamps-warnow.pdf)
-+ [Hands-on worksheet from 2017](tutorial.md) *-- written for the installation of SEPP/TIPP on the MLB servers for [STAMPS 2017](https://stamps.mbl.edu/index.php/Schedule)*
-+ [Lecture slides from 2018](http://tandy.cs.illinois.edu/stamps-warnow-2018.pdf)
++ Lecture slides [2017](http://tandy.cs.illinois.edu/stamps-warnow.pdf), [2018](http://tandy.cs.illinois.edu/stamps-warnow-2018.pdf)
++ Hands-on worksheet [2017](tutorial.md) *-- written for the installation of SEPP/TIPP on the MLB servers for [STAMPS 2017](https://stamps.mbl.edu/index.php/Schedule)*
+
 
 **Please flag us down when you have questions, we are happy to help!**
 
